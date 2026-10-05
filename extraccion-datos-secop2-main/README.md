@@ -207,3 +207,7 @@ Las instrucciones están en `entregables/README.md` y `entregables/08-codigo-fue
 Todos los procesos estocásticos usan `random_state = 42`. Los resultados intermedios de cada notebook se
 guardan en CSV/Parquet dentro de la carpeta `data/` correspondiente, de modo que se pueden consultar sin
 volver a ejecutar la extracción.
+
+Link al dashboard Streamlit. 
+https://tablerodatossecop.streamlit.app/
+
