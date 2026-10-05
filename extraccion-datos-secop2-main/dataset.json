@@ -1,0 +1,1145 @@
+{
+  "app_token": "nrnMDVHrooMY3wZIGrYfPsAq3",
+  "fuentes": {
+    "contratosElectronicos": {
+      "apiSODA3": "https://www.datos.gov.co/api/v3/views/jbjy-vk9h/query.json",
+      "definicion": "El conjunto de datos SECOP II - Contratos Electrónicos contiene información detallada sobre los contratos estatales firmados electrónicamente en Colombia. Incluye variables relacionadas con:\n - Identificación de la entidad contratante (nombre, NIT, ubicación, sector, orden, rama)\n - Información del contrato (ID, referencia, estado, tipo, modalidad, fechas clave, objeto, duración)\n - Datos del proveedor adjudicado (nombre, documento, tipo, grupo, Pyme)\n - Información financiera (valores contratados, pagos, amortizaciones, saldos, origen y destino de recursos)\n - Información presupuestal (códigos BPIN, CDP, vigencia)\n - Datos del representante legal, supervisores, ordenadores de gasto y pago\n - Indicadores de cumplimiento ambiental, postconsumo, postconflicto y prórrogas\n Este conjunto permite realizar análisis sobre la ejecución contractual, seguimiento presupuestal, evaluación de proveedores, transparencia en la gestión pública y apoyo a políticas de contratación estatal.",
+      "columnas": [
+        {
+          "nombreColumna": "Nombre Entidad",
+          "descripcion": "Nombre de la entidad del estado que publica el contrato",
+          "nombreCampoApi": "nombre_entidad",
+          "tipo": "Texto"
+        },
+        {
+          "nombreColumna": "Nit Entidad",
+          "descripcion": "NIT de la entidad del estado que publica el contrato",
+          "nombreCampoApi": "nit_entidad",
+          "tipo": "Número"
+        },
+        {
+          "nombreColumna": "Departamento",
+          "descripcion": "Departamento en el cual se registró la entidad del estado que publica el contrato",
+          "nombreCampoApi": "departamento",
+          "tipo": "Texto"
+        },
+        {
+          "nombreColumna": "Ciudad",
+          "descripcion": "Ciudad en el cual se registró la entidad del estado que publica el contrato",
+          "nombreCampoApi": "ciudad",
+          "tipo": "Texto"
+        },
+        {
+          "nombreColumna": "Localización",
+          "descripcion": "Ubicación completa de la entidad del estado que publica el contrato",
+          "nombreCampoApi": "localizaci_n",
+          "tipo": "Texto"
+        },
+        {
+          "nombreColumna": "Orden",
+          "descripcion": "Orden entidad del estado que publica el contrato",
+          "nombreCampoApi": "orden",
+          "tipo": "Texto"
+        },
+        {
+          "nombreColumna": "Sector",
+          "descripcion": "Sector entidad del estado que publica el contrato",
+          "nombreCampoApi": "sector",
+          "tipo": "Texto"
+        },
+        {
+          "nombreColumna": "Rama",
+          "descripcion": "Rama del estado de la entidad que publica el contrato",
+          "nombreCampoApi": "rama",
+          "tipo": "Texto"
+        },
+        {
+          "nombreColumna": "Entidad Centralizada",
+          "descripcion": "Define si la entidad es descentralizada o centralizada",
+          "nombreCampoApi": "entidad_centralizada",
+          "tipo": "Texto"
+        },
+        {
+          "nombreColumna": "Proceso de Compra",
+          "descripcion": "Identificador del proceso de compra publicado",
+          "nombreCampoApi": "proceso_de_compra",
+          "tipo": "Texto"
+        },
+        {
+          "nombreColumna": "ID Contrato",
+          "descripcion": "Identificador del contrato firmado, generado por la plataforma",
+          "nombreCampoApi": "id_contrato",
+          "tipo": "Texto"
+        },
+        {
+          "nombreColumna": "Referencia del Contrato",
+          "descripcion": "Identificador del contrato firmado, generado por la entidad del estado",
+          "nombreCampoApi": "referencia_del_contrato",
+          "tipo": "Texto"
+        },
+        {
+          "nombreColumna": "Estado Contrato",
+          "descripcion": "Estado del contrato, frente a su ejecución, firma o liquidación",
+          "nombreCampoApi": "estado_contrato",
+          "tipo": "Texto"
+        },
+        {
+          "nombreColumna": "Código de Categoría Principal",
+          "descripcion": "Código UNSPSC de la categoría principal para el contrato",
+          "nombreCampoApi": "codigo_de_categoria_principal",
+          "tipo": "Texto"
+        },
+        {
+          "nombreColumna": "Descripción del Proceso",
+          "descripcion": "Descripción del objeto del proceso de compra",
+          "nombreCampoApi": "descripcion_del_proceso",
+          "tipo": "Texto"
+        },
+        {
+          "nombreColumna": "Tipo de Contrato",
+          "descripcion": "Tipo de contrato de acuerdo con su marco jurídico",
+          "nombreCampoApi": "tipo_de_contrato",
+          "tipo": "Texto"
+        },
+        {
+          "nombreColumna": "Modalidad de Contratación",
+          "descripcion": "Modalidad de contratación de acuerdo con el modelo de selección",
+          "nombreCampoApi": "modalidad_de_contratacion",
+          "tipo": "Texto"
+        },
+        {
+          "nombreColumna": "Justificación Modalidad de Contratación",
+          "descripcion": "Justificación de la modalidad, el escenario bajo el cual se toma la decisión de definir una u otra modalidad de contratación",
+          "nombreCampoApi": "justificacion_modalidad_de",
+          "tipo": "Texto"
+        },
+        {
+          "nombreColumna": "Fecha de Firma",
+          "descripcion": "Fecha de firma del contrato electrónico",
+          "nombreCampoApi": "fecha_de_firma",
+          "tipo": "Marca de tiempo variable"
+        },
+        {
+          "nombreColumna": "Fecha de Inicio del Contrato",
+          "descripcion": "Fecha de inicio de las responsabilidades contractuales",
+          "nombreCampoApi": "fecha_de_inicio_del_contrato",
+          "tipo": "Marca de tiempo variable"
+        },
+        {
+          "nombreColumna": "Fecha de Fin del Contrato",
+          "descripcion": "Fecha de fin de las responsabilidades contractuales",
+          "nombreCampoApi": "fecha_de_fin_del_contrato",
+          "tipo": "Marca de tiempo variable"
+        },
+        {
+          "nombreColumna": "Condiciones de Entrega",
+          "descripcion": "Condiciones bajo las cuales se entrega el producto o servicio",
+          "nombreCampoApi": "condiciones_de_entrega",
+          "tipo": "Texto"
+        },
+        {
+          "nombreColumna": "Tipo Doc Proveedor",
+          "descripcion": "Tipo de documento del proveedor adjudicado",
+          "nombreCampoApi": "tipodocproveedor",
+          "tipo": "Texto"
+        },
+        {
+          "nombreColumna": "Documento Proveedor",
+          "descripcion": "Número de documento del proveedor adjudicado",
+          "nombreCampoApi": "documento_proveedor",
+          "tipo": "Texto"
+        },
+        {
+          "nombreColumna": "Proveedor Adjudicado",
+          "descripcion": "Nombre del proveedor adjudicado",
+          "nombreCampoApi": "proveedor_adjudicado",
+          "tipo": "Texto"
+        },
+        {
+          "nombreColumna": "Es Grupo",
+          "descripcion": "Determina el proveedor es un grupo de entidades, existe un conjunto de datos de CCE que contiene la conformación de los grupos",
+          "nombreCampoApi": "es_grupo",
+          "tipo": "Texto"
+        },
+        {
+          "nombreColumna": "Es Pyme",
+          "descripcion": "Determina si la empresa es una Pyme",
+          "nombreCampoApi": "es_pyme",
+          "tipo": "Texto"
+        },
+        {
+          "nombreColumna": "Habilita Pago Adelantado",
+          "descripcion": "Determina si el contrato tiene habilitada la opción de pago de adelantos",
+          "nombreCampoApi": "habilita_pago_adelantado",
+          "tipo": "Texto"
+        },
+        {
+          "nombreColumna": "Liquidación",
+          "descripcion": "Determina si el contrato ha sido liquidado",
+          "nombreCampoApi": "liquidaci_n",
+          "tipo": "Texto"
+        },
+        {
+          "nombreColumna": "Obligación Ambiental",
+          "descripcion": "Determina si el contrato tiene compromisos de cumplimiento a obligaciones ambientales",
+          "nombreCampoApi": "obligaci_n_ambiental",
+          "tipo": "Texto"
+        },
+        {
+          "nombreColumna": "Obligaciones Post consumo",
+          "descripcion": "Determina si el contrato tiene compromisos de cumplimiento a obligaciones posteriores a la entrega del producto o prestación del servicio",
+          "nombreCampoApi": "obligaciones_postconsumo",
+          "tipo": "Texto"
+        },
+        {
+          "nombreColumna": "Reversión",
+          "descripcion": "Determina si el contrato ha sido reversado",
+          "nombreCampoApi": "reversion",
+          "tipo": "Texto"
+        },
+        {
+          "nombreColumna": "Origen de los Recursos",
+          "descripcion": "Origen de los Recursos, a nivel presupuestal",
+          "nombreCampoApi": "origen_de_los_recursos",
+          "tipo": "Texto"
+        },
+        {
+          "nombreColumna": "Destino Gasto",
+          "descripcion": "Destino del gasto, a nivel presupuestal",
+          "nombreCampoApi": "destino_gasto",
+          "tipo": "Texto"
+        },
+        {
+          "nombreColumna": "Valor del Contrato",
+          "descripcion": "Valor total del contrato",
+          "nombreCampoApi": "valor_del_contrato",
+          "tipo": "Número"
+        },
+        {
+          "nombreColumna": "Valor de pago adelantado",
+          "descripcion": "Valor del pago por adelantado",
+          "nombreCampoApi": "valor_de_pago_adelantado",
+          "tipo": "Número"
+        },
+        {
+          "nombreColumna": "Valor Facturado",
+          "descripcion": "Valor Facturado a la fecha",
+          "nombreCampoApi": "valor_facturado",
+          "tipo": "Número"
+        },
+        {
+          "nombreColumna": "Valor Pendiente de Pago",
+          "descripcion": "Valor Pendiente de Pago a la fecha",
+          "nombreCampoApi": "valor_pendiente_de_pago",
+          "tipo": "Número"
+        },
+        {
+          "nombreColumna": "Valor Pagado",
+          "descripcion": "Valor Pagado a la fecha",
+          "nombreCampoApi": "valor_pagado",
+          "tipo": "Número"
+        },
+        {
+          "nombreColumna": "Valor Amortizado",
+          "descripcion": "Valor Amortizado a la fecha",
+          "nombreCampoApi": "valor_amortizado",
+          "tipo": "Número"
+        },
+        {
+          "nombreColumna": "Valor Pendiente de Amortización",
+          "descripcion": "Valor Pendiente de Amortización a la fecha",
+          "nombreCampoApi": "valor_pendiente_de",
+          "tipo": "Número"
+        },
+        {
+          "nombreColumna": "Valor Pendiente de Ejecución",
+          "descripcion": "Valor Pendiente de Ejecución a la fecha",
+          "nombreCampoApi": "valor_pendiente_de_ejecucion",
+          "tipo": "Número"
+        },
+        {
+          "nombreColumna": "Estado BPIN",
+          "descripcion": "Estado de asignación del código del Banco de Proyectos de Inversión",
+          "nombreCampoApi": "estado_bpin",
+          "tipo": "Texto"
+        },
+        {
+          "nombreColumna": "Código BPIN",
+          "descripcion": "Código asociado al Banco de Proyectos de Inversión",
+          "nombreCampoApi": "c_digo_bpin",
+          "tipo": "Texto"
+        },
+        {
+          "nombreColumna": "Anno BPIN",
+          "descripcion": "Año de asignación del código del Banco de Proyectos de Inversión",
+          "nombreCampoApi": "anno_bpin",
+          "tipo": "Texto"
+        },
+        {
+          "nombreColumna": "Saldo CDP",
+          "descripcion": "Saldo del CDP asignado al proceso y al contrato",
+          "nombreCampoApi": "saldo_cdp",
+          "tipo": "Número"
+        },
+        {
+          "nombreColumna": "Saldo Vigencia",
+          "descripcion": "Saldo actual para la vigencia del CDP asignado al proceso y al contrato",
+          "nombreCampoApi": "saldo_vigencia",
+          "tipo": "Número"
+        },
+        {
+          "nombreColumna": "Es Post Conflicto",
+          "descripcion": "Determina si el proceso está asociado a algún evento de acuerdo de paz",
+          "nombreCampoApi": "espostconflicto",
+          "tipo": "Texto"
+        },
+        {
+          "nombreColumna": "Días adicionados",
+          "descripcion": "Días adicionados al contrato electrónico",
+          "nombreCampoApi": "dias_adicionados",
+          "tipo": "Número"
+        },
+        {
+          "nombreColumna": "Puntos del Acuerdo",
+          "descripcion": "Pilares del acuerdo de paz, si el contrato es post conflicto",
+          "nombreCampoApi": "puntos_del_acuerdo",
+          "tipo": "Texto"
+        },
+        {
+          "nombreColumna": "Pilares del Acuerdo",
+          "descripcion": "Pilares del acuerdo de paz",
+          "nombreCampoApi": "pilares_del_acuerdo",
+          "tipo": "Texto"
+        },
+        {
+          "nombreColumna": "URL Proceso",
+          "descripcion": "URL del proceso de compra en la plataforma SECOP II",
+          "nombreCampoApi": "urlproceso",
+          "tipo": "URL"
+        },
+        {
+          "nombreColumna": "Nombre Representante Legal",
+          "descripcion": "Nombre del representante legal de la entidad",
+          "nombreCampoApi": "nombre_representante_legal",
+          "tipo": "Texto"
+        },
+        {
+          "nombreColumna": "Nacionalidad Representante Legal",
+          "descripcion": "Nacionalidad del representante legal de la entidad",
+          "nombreCampoApi": "nacionalidad_representante_legal",
+          "tipo": "Texto"
+        },
+        {
+          "nombreColumna": "Domicilio Representante Legal",
+          "descripcion": "Dirección de domicilio del representante legal de la entidad",
+          "nombreCampoApi": "domicilio_representante_legal",
+          "tipo": "Texto"
+        },
+        {
+          "nombreColumna": "Tipo de Identificación Representante Legal",
+          "descripcion": "Tipo de identificación del representante legal de la entidad",
+          "nombreCampoApi": "tipo_de_identificaci_n_representante_legal",
+          "tipo": "Texto"
+        },
+        {
+          "nombreColumna": "Identificación Representante Legal",
+          "descripcion": "Número de identificación del representante legal de la entidad",
+          "nombreCampoApi": "identificaci_n_representante_legal",
+          "tipo": "Texto"
+        },
+        {
+          "nombreColumna": "Género Representante Legal",
+          "descripcion": "Género sexual del representante legal de la entidad",
+          "nombreCampoApi": "g_nero_representante_legal",
+          "tipo": "Texto"
+        },
+        {
+          "nombreColumna": "Presupuesto General de la Nación – PGN",
+          "descripcion": "Valor de origen de los recursos que corresponde al Presupuesto General de la Nación – PGN",
+          "nombreCampoApi": "presupuesto_general_de_la_nacion_pgn",
+          "tipo": "Número"
+        },
+        {
+          "nombreColumna": "Sistema General de Participaciones",
+          "descripcion": "Valor de origen de los recursos que corresponde al Sistema General de Participaciones",
+          "nombreCampoApi": "sistema_general_de_participaciones",
+          "tipo": "Número"
+        },
+        {
+          "nombreColumna": "Sistema General de Regalías",
+          "descripcion": "Valor de origen de los recursos que corresponde al Sistema General de Regalías",
+          "nombreCampoApi": "sistema_general_de_regal_as",
+          "tipo": "Número"
+        },
+        {
+          "nombreColumna": "Recursos Propios (Alcaldías, Gobernaciones y Resguardos Indígenas)",
+          "descripcion": "Indica el valor de recursos de la entidad en el contrato electrónico",
+          "nombreCampoApi": "recursos_propios_alcald_as_gobernaciones_y_resguardos_ind_genas_",
+          "tipo": "Número"
+        },
+        {
+          "nombreColumna": "Recursos de Crédito",
+          "descripcion": "Valor de origen de los recursos que corresponde a Recursos de Crédito",
+          "nombreCampoApi": "recursos_de_credito",
+          "tipo": "Número"
+        },
+        {
+          "nombreColumna": "Recursos Propios",
+          "descripcion": "Valor de origen de los recursos que corresponde a Recursos Propios",
+          "nombreCampoApi": "recursos_propios",
+          "tipo": "Número"
+        },
+        {
+          "nombreColumna": "Ultima Actualización",
+          "descripcion": "Fecha de última actualización del contrato electrónico",
+          "nombreCampoApi": "ultima_actualizacion",
+          "tipo": "Marca de tiempo variable"
+        },
+        {
+          "nombreColumna": "Código Entidad",
+          "descripcion": "Código de la entidad en la plataforma SECOPII",
+          "nombreCampoApi": "codigo_entidad",
+          "tipo": "Número"
+        },
+        {
+          "nombreColumna": "Código Proveedor",
+          "descripcion": "Código del proveedor en la plataforma SECOPII",
+          "nombreCampoApi": "codigo_proveedor",
+          "tipo": "Texto"
+        },
+        {
+          "nombreColumna": "Fecha Inicio Liquidación",
+          "descripcion": "Fecha de inicio de liquidación del contrato electrónico",
+          "nombreCampoApi": "fecha_inicio_liquidacion",
+          "tipo": "Marca de tiempo variable"
+        },
+        {
+          "nombreColumna": "Fecha Fin Liquidación",
+          "descripcion": "Fecha de fin de liquidación del contrato electrónico",
+          "nombreCampoApi": "fecha_fin_liquidacion",
+          "tipo": "Marca de tiempo variable"
+        },
+        {
+          "nombreColumna": "Objeto del Contrato",
+          "descripcion": "Objeto del contrato electrónico",
+          "nombreCampoApi": "objeto_del_contrato",
+          "tipo": "Texto"
+        },
+        {
+          "nombreColumna": "Duración del contrato",
+          "descripcion": "Describe la duración del contrato en el tiempo",
+          "nombreCampoApi": "duraci_n_del_contrato",
+          "tipo": "Texto"
+        },
+        {
+          "nombreColumna": "Nombre del banco",
+          "descripcion": "Indica el nombre del banco en donde se consignarán los pagos del contrato",
+          "nombreCampoApi": "nombre_del_banco",
+          "tipo": "Texto"
+        },
+        {
+          "nombreColumna": "Tipo de cuenta",
+          "descripcion": "Tipo de cuenta en la que se se consignaran los pagos del contrato",
+          "nombreCampoApi": "tipo_de_cuenta",
+          "tipo": "Texto"
+        },
+        {
+          "nombreColumna": "Número de cuenta",
+          "descripcion": "Número de cuenta en donde se harán los pagos del contrato",
+          "nombreCampoApi": "n_mero_de_cuenta",
+          "tipo": "Texto"
+        },
+        {
+          "nombreColumna": "El contrato puede ser prorrogado",
+          "descripcion": "Indica si el contrato puede ser o no prorrogado",
+          "nombreCampoApi": "el_contrato_puede_ser_prorrogado",
+          "tipo": "Texto"
+        },
+        {
+          "nombreColumna": "Fecha de notificación de prorrogación",
+          "descripcion": "Infica la fecha de notificación de la prorrogación del contrato",
+          "nombreCampoApi": "fecha_de_notificaci_n_de_prorrogaci_n",
+          "tipo": "Marca de tiempo variable"
+        },
+        {
+          "nombreColumna": "Nombre ordenador del gasto",
+          "descripcion": "Describe el nombre del ordenador del gasto de la entidad compradora",
+          "nombreCampoApi": "nombre_ordenador_del_gasto",
+          "tipo": "Texto"
+        },
+        {
+          "nombreColumna": "Tipo de documento Ordenador del gasto",
+          "descripcion": "Indica el tipo de documento del ordenador del gasto de la entidad compradora",
+          "nombreCampoApi": "tipo_de_documento_ordenador_del_gasto",
+          "tipo": "Texto"
+        },
+        {
+          "nombreColumna": "Número de documento Ordenador del gasto",
+          "descripcion": "Indica el número de documento del ordenador del gasto",
+          "nombreCampoApi": "n_mero_de_documento_ordenador_del_gasto",
+          "tipo": "Texto"
+        },
+        {
+          "nombreColumna": "Nombre supervisor",
+          "descripcion": "Describe el nombre del supervisor de la entidad compradora",
+          "nombreCampoApi": "nombre_supervisor",
+          "tipo": "Texto"
+        },
+        {
+          "nombreColumna": "Tipo de documento supervisor",
+          "descripcion": "Indica el tipo de documento del supervisor de la entidad compradora",
+          "nombreCampoApi": "tipo_de_documento_supervisor",
+          "tipo": "Texto"
+        },
+        {
+          "nombreColumna": "Número de documento supervisor",
+          "descripcion": "Indica el número de documento del supervisor",
+          "nombreCampoApi": "n_mero_de_documento_supervisor",
+          "tipo": "Texto"
+        },
+        {
+          "nombreColumna": "Nombre Ordenador de Pago",
+          "descripcion": "Describe el nombre del Ordenador de Pago de la entidad compradora",
+          "nombreCampoApi": "nombre_ordenador_de_pago",
+          "tipo": "Texto"
+        },
+        {
+          "nombreColumna": "Tipo de documento Ordenador de Pago",
+          "descripcion": "Indica el tipo de documento del Ordenador de Pago de la entidad compradora",
+          "nombreCampoApi": "tipo_de_documento_ordenador_de_pago",
+          "tipo": "Texto"
+        },
+        {
+          "nombreColumna": "Número de documento Ordenador de Pago",
+          "descripcion": "Indica el número de documento del Ordenador de Pago",
+          "nombreCampoApi": "n_mero_de_documento_ordenador_de_pago",
+          "tipo": "Texto"
+        },
+        {
+          "nombreColumna": "Documentos Tipo",
+          "descripcion": "Indica si se utilizaron documentos tipo en el contrato",
+          "nombreCampoApi": "documentos_tipo",
+          "tipo": "Texto"
+        },
+        {
+          "nombreColumna": "Descripcion Documentos Tipo",
+          "descripcion": "Descripción de los documentos tipo utilizados",
+          "nombreCampoApi": "descripcion_documentos_tipo",
+          "tipo": "Texto"
+        }
+      ]
+    },
+    "proveedoresRegistrados": {
+      "apiSODA3": "https://www.datos.gov.co/api/v3/views/qmzu-gj57/query.json",
+      "definicion": "El conjunto de datos SECOP II - Proveedores Registrados presenta información detallada sobre los proveedores que se han registrado en la plataforma SECOP II. Cada registro incluye:\n- Código y nombre del proveedor\n- NIT y tipo de empresa\n- Estado de actividad en la plataforma\n- Datos de contacto: teléfono, correo electrónico, dirección, sitio web\n- Información del representante legal: nombre, tipo y número de documento, datos de contacto\n- Ubicación geográfica: país, departamento, municipio\n- Categoría principal UNSPSC: código y descripción\n- Indicadores de inclusión: si es Pyme, si también es entidad compradora, si pertenece a un grupo\nEste diccionario permite identificar la diversidad de proveedores que participan en la contratación pública, analizar su distribución geográfica, evaluar su perfil empresarial y fomentar la participación de MiPymes y grupos organizados.",
+      "columnas": [
+        {
+          "nombreColumna": "Código",
+          "descripcion": "Es el código del proveedor en la plataforma SECOPII",
+          "nombreCampoApi": "codigo",
+          "tipo": "Texto"
+        },
+        {
+          "nombreColumna": "Nombre",
+          "descripcion": "Nombre del Proveedor, como se registró en SECOP II",
+          "nombreCampoApi": "nombre",
+          "tipo": "Texto"
+        },
+        {
+          "nombreColumna": "NIT",
+          "descripcion": "Número de Identificación con el que figura el proveedor en SECOP II",
+          "nombreCampoApi": "nit",
+          "tipo": "Texto"
+        },
+        {
+          "nombreColumna": "Es Entidad",
+          "descripcion": "Indica si el proveedor también es una entidad compradora en SECOPII",
+          "nombreCampoApi": "es_entidad",
+          "tipo": "Texto"
+        },
+        {
+          "nombreColumna": "Es grupo",
+          "descripcion": "Indica si la entidad pertenece a un grupo",
+          "nombreCampoApi": "es_grupo",
+          "tipo": "Texto"
+        },
+        {
+          "nombreColumna": "Esta Activa",
+          "descripcion": "Indica si el proveedor esta activo en el SECOPII",
+          "nombreCampoApi": "esta_activa",
+          "tipo": "Texto"
+        },
+        {
+          "nombreColumna": "Fecha Creación",
+          "descripcion": "Fecha en la que se hizo el primer registro del proveedor",
+          "nombreCampoApi": "fecha_creacion",
+          "tipo": "Marca de tiempo variable"
+        },
+        {
+          "nombreColumna": "Código Categoría Principal",
+          "descripcion": "Código UNSPSC principal del proveedor",
+          "nombreCampoApi": "codigo_categoria_principal",
+          "tipo": "Texto"
+        },
+        {
+          "nombreColumna": "Descripción Categoría Principal",
+          "descripcion": "Descripción UNSPSC principal del proveedor",
+          "nombreCampoApi": "descripcion_categoria_principal",
+          "tipo": "Texto"
+        },
+        {
+          "nombreColumna": "Teléfono",
+          "descripcion": "Indica el número de teléfono del proveedor",
+          "nombreCampoApi": "teléfono",
+          "tipo": "Texto"
+        },
+        {
+          "nombreColumna": "Fax",
+          "descripcion": "Indica el número de fax reportado por el proveedor",
+          "nombreCampoApi": "fax",
+          "tipo": "Texto"
+        },
+        {
+          "nombreColumna": "Correo",
+          "descripcion": "Indica la dirección de correo electrónico del proveedor",
+          "nombreCampoApi": "correo",
+          "tipo": "Texto"
+        },
+        {
+          "nombreColumna": "Dirección",
+          "descripcion": "Dirección física registrada por el proveedor",
+          "nombreCampoApi": "dirección",
+          "tipo": "Texto"
+        },
+        {
+          "nombreColumna": "País",
+          "descripcion": "País de origen del Proveedor",
+          "nombreCampoApi": "país",
+          "tipo": "Texto"
+        },
+        {
+          "nombreColumna": "Departamento",
+          "descripcion": "En caso de Ser un proveedor colombiano, indica el departamento al que corresponde la ubicación principal del Proveedor",
+          "nombreCampoApi": "departamento",
+          "tipo": "Texto"
+        },
+        {
+          "nombreColumna": "Municipio",
+          "descripcion": "En caso de Ser un proveedor colombiano, indica el Municipio al que corresponde la ubicación principal del Proveedor",
+          "nombreCampoApi": "municipio",
+          "tipo": "Texto"
+        },
+        {
+          "nombreColumna": "Sitio web",
+          "descripcion": "Indica el enlace del sitio web del proveedor",
+          "nombreCampoApi": "sitio_web",
+          "tipo": "Texto"
+        },
+        {
+          "nombreColumna": "Tipo Empresa",
+          "descripcion": "Tipo de Empresa que declara el proveedor al registrarse",
+          "nombreCampoApi": "tipo_empresa",
+          "tipo": "Texto"
+        },
+        {
+          "nombreColumna": "Nombre representante legal",
+          "descripcion": "Indica el nombre del representa nte legal del proveedor",
+          "nombreCampoApi": "nombre_representante_legal",
+          "tipo": "Texto"
+        },
+        {
+          "nombreColumna": "Tipo doc. representante legal",
+          "descripcion": "Indica el tipo de documento del representante legal del proveedor",
+          "nombreCampoApi": "tipo_doc_representante_legal",
+          "tipo": "Texto"
+        },
+        {
+          "nombreColumna": "Número doc. representante legal",
+          "descripcion": "Indica el número de documento del representante legal del proveedor",
+          "nombreCampoApi": "n_mero_doc_representante_legal",
+          "tipo": "Texto"
+        },
+        {
+          "nombreColumna": "Teléfono representante legal",
+          "descripcion": "Indica el número telefónico del representante legal del proveedor",
+          "nombreCampoApi": "telefono_representante_legal",
+          "tipo": "Texto"
+        },
+        {
+          "nombreColumna": "Correo representante legal",
+          "descripcion": "Indica el correo electrónico del representante legal del proveedor",
+          "nombreCampoApi": "correo_representante_legal",
+          "tipo": "Texto"
+        },
+        {
+          "nombreColumna": "Es Pyme",
+          "descripcion": "Determina si el proveedor se registró como pequeña empresa",
+          "nombreCampoApi": "espyme",
+          "tipo": "Texto"
+        },
+        {
+          "nombreColumna": "Ubicación",
+          "descripcion": "Indica el código de ubicación del proveedor en la plataforma SECOPII",
+          "nombreCampoApi": "ubicación",
+          "tipo": "Texto"
+        }
+      ]
+    },
+    "procesosDeContratacion": {
+      "apiSODA3": "https://www.datos.gov.co/api/v3/views/p6dx-8zbt/query.json",
+      "definicion": "El conjunto de datos contiene información detallada sobre las entidades públicas y proveedores registrados en la plataforma SECOP II, utilizada para la gestión de procesos de contratación estatal en Colombia. Incluye variables relacionadas con:\n- Identificación institucional (nombre, NIT, tipo de entidad)\n- Ubicación geográfica (ciudad, departamento, país)\n- Datos de contacto (correo electrónico, sitio web, número de fax)\n- Datos del representante legal (nombre, tipo y número de documento, correo electrónico)\n- Indicadores sobre el rol de la entidad (compradora, proveedor, Pyme, grupo)\n- Estado de actividad\nEste conjunto permite realizar análisis sobre la participación institucional en la contratación pública, identificar actores clave, evaluar la cobertura territorial del sistema, y apoyar procesos de transparencia, rendición de cuentas y mejora de políticas públicas.",
+      "columnas": [
+        {
+          "nombreColumna": "Entidad",
+          "descripcion": "Nombre de la Entidad que publica el proceso de compra pública",
+          "nombreCampoApi": "entidad",
+          "tipo": "Texto"
+        },
+        {
+          "nombreColumna": "Nit Entidad",
+          "descripcion": "NIT de la Entidad que publicó el proceso",
+          "nombreCampoApi": "nit_entidad",
+          "tipo": "Texto"
+        },
+        {
+          "nombreColumna": "Departamento Entidad",
+          "descripcion": "Departamento en el cual está registrada la entidad",
+          "nombreCampoApi": "departamento_entidad",
+          "tipo": "Texto"
+        },
+        {
+          "nombreColumna": "Ciudad Entidad",
+          "descripcion": "Ciudad en la cual está registrada la entidad",
+          "nombreCampoApi": "ciudad_entidad",
+          "tipo": "Texto"
+        },
+        {
+          "nombreColumna": "Orden Entidad",
+          "descripcion": "Orden de la Entidad (Nacional, Regional)",
+          "nombreCampoApi": "ordenentidad",
+          "tipo": "Texto"
+        },
+        {
+          "nombreColumna": "Entidad Centralizada",
+          "descripcion": "Identifica si la entidad es o no centralizada",
+          "nombreCampoApi": "codigo_pci",
+          "tipo": "Texto"
+        },
+        {
+          "nombreColumna": "ID del Proceso",
+          "descripcion": "Identificador Único del Proceso, valor generado por la plataforma",
+          "nombreCampoApi": "id_del_proceso",
+          "tipo": "Texto"
+        },
+        {
+          "nombreColumna": "Referencia del Proceso",
+          "descripcion": "Identificador del Proceso, valor generado por la Entidad",
+          "nombreCampoApi": "referencia_del_proceso",
+          "tipo": "Texto"
+        },
+        {
+          "nombreColumna": "PCI",
+          "descripcion": "Código de Unidad - Sub-Unidad Contratación",
+          "nombreCampoApi": "ppi",
+          "tipo": "Texto"
+        },
+        {
+          "nombreColumna": "ID del Portafolio",
+          "descripcion": "Identificador del Portafolio al cual corresponde el proceso de compra",
+          "nombreCampoApi": "id_del_portafolio",
+          "tipo": "Texto"
+        },
+        {
+          "nombreColumna": "Nombre del Procedimiento",
+          "descripcion": "Nombre dado al proceso de compra por la Entidad",
+          "nombreCampoApi": "nombre_del_procedimiento",
+          "tipo": "Texto"
+        },
+        {
+          "nombreColumna": "Descripción del Procedimiento",
+          "descripcion": "Primera definición de las características principales del proceso",
+          "nombreCampoApi": "descripci_n_del_procedimiento",
+          "tipo": "Texto"
+        },
+        {
+          "nombreColumna": "Fase",
+          "descripcion": "Fase en la que actualmente se encuentra el proceso",
+          "nombreCampoApi": "fase",
+          "tipo": "Texto"
+        },
+        {
+          "nombreColumna": "Fecha de Publicación del Proceso",
+          "descripcion": "Fecha de la publicación inicial del proceso de compra",
+          "nombreCampoApi": "fecha_de_publicacion_del",
+          "tipo": "Marca de tiempo variable"
+        },
+        {
+          "nombreColumna": "Fecha de Ultima Publicación",
+          "descripcion": "Fecha de la última publicación hecha para el proceso de compra",
+          "nombreCampoApi": "fecha_de_ultima_publicaci",
+          "tipo": "Marca de tiempo variable"
+        },
+        {
+          "nombreColumna": "Fecha de Publicación (Fase Planeación Precalificación)",
+          "descripcion": "Fecha de publicación, dentro del proceso, de la fase de Planeación en Precalificación",
+          "nombreCampoApi": "fecha_de_publicacion_fase",
+          "tipo": "Marca de tiempo variable"
+        },
+        {
+          "nombreColumna": "Fecha de Publicación (Fase Selección Precalificación)",
+          "descripcion": "Fecha de publicación, dentro del proceso, de la fase de Selección en Precalificación",
+          "nombreCampoApi": "fecha_de_publicacion_fase_1",
+          "tipo": "Marca de tiempo variable"
+        },
+        {
+          "nombreColumna": "Fecha de Publicación (Manifestación de Interés)",
+          "descripcion": "Fecha de publicación, dentro del proceso, de la fase de Manifestación de Interés",
+          "nombreCampoApi": "fecha_de_publicacion",
+          "tipo": "Marca de tiempo variable"
+        },
+        {
+          "nombreColumna": "Fecha de Publicación (Fase Borrador)",
+          "descripcion": "Fecha de publicación, dentro del proceso, de la fase Borrador",
+          "nombreCampoApi": "fecha_de_publicacion_fase_2",
+          "tipo": "Marca de tiempo variable"
+        },
+        {
+          "nombreColumna": "Fecha de Publicación (Fase Selección)",
+          "descripcion": "Fecha de publicación, dentro del proceso, de la fase Selección",
+          "nombreCampoApi": "fecha_de_publicacion_fase_3",
+          "tipo": "Marca de tiempo variable"
+        },
+        {
+          "nombreColumna": "Precio Base",
+          "descripcion": "Precio Base, proyectado, del proceso de Compra",
+          "nombreCampoApi": "precio_base",
+          "tipo": "Número"
+        },
+        {
+          "nombreColumna": "Modalidad de Contratación",
+          "descripcion": "Modalidad de selección bajo la cual se desarrolla el proceso de Compra",
+          "nombreCampoApi": "modalidad_de_contratacion",
+          "tipo": "Texto"
+        },
+        {
+          "nombreColumna": "Justificación Modalidad de Contratación",
+          "descripcion": "En caso de requerirse, Justificación para la modalidad de selección elegida para el proceso de compra",
+          "nombreCampoApi": "justificaci_n_modalidad_de",
+          "tipo": "Texto"
+        },
+        {
+          "nombreColumna": "Duración",
+          "descripcion": "Valor de la Duración estimada del proceso de compra pública",
+          "nombreCampoApi": "duracion",
+          "tipo": "Número"
+        },
+        {
+          "nombreColumna": "Unidad de Duración",
+          "descripcion": "Unidad que aplica a la Duración estimada del proceso de compra pública",
+          "nombreCampoApi": "unidad_de_duracion",
+          "tipo": "Texto"
+        },
+        {
+          "nombreColumna": "Fecha de Recepción de Respuestas",
+          "descripcion": "Fecha asignada para la recepción de respuestas por parte de los proveedores, dentro del proceso de compra",
+          "nombreCampoApi": "fecha_de_recepcion_de",
+          "tipo": "Marca de tiempo variable"
+        },
+        {
+          "nombreColumna": "Fecha de Apertura de Respuesta",
+          "descripcion": "Fecha Estimada para la Apertura de las respuestas",
+          "nombreCampoApi": "fecha_de_apertura_de_respuesta",
+          "tipo": "Marca de tiempo variable"
+        },
+        {
+          "nombreColumna": "Fecha de Apertura Efectiva",
+          "descripcion": "Fecha Real para la Apertura de las respuestas",
+          "nombreCampoApi": "fecha_de_apertura_efectiva",
+          "tipo": "Marca de tiempo variable"
+        },
+        {
+          "nombreColumna": "Ciudad de la Unidad de Contratación",
+          "descripcion": "Cuidad en la que aparece registrada la unidad de contratación de la Entidad",
+          "nombreCampoApi": "ciudad_de_la_unidad_de",
+          "tipo": "Texto"
+        },
+        {
+          "nombreColumna": "Nombre de la Unidad de Contratación",
+          "descripcion": "Nombre de la unidad de contratación de la Entidad",
+          "nombreCampoApi": "nombre_de_la_unidad_de",
+          "tipo": "Texto"
+        },
+        {
+          "nombreColumna": "Proveedores Invitados",
+          "descripcion": "Número de Proveedores invitados a participar del proceso, en total",
+          "nombreCampoApi": "proveedores_invitados",
+          "tipo": "Número"
+        },
+        {
+          "nombreColumna": "Proveedores con Invitación Directa",
+          "descripcion": "Proveedores con Invitación a participar hecha de forma directa",
+          "nombreCampoApi": "proveedores_con_invitacion",
+          "tipo": "Número"
+        },
+        {
+          "nombreColumna": "Visualizaciones del Procedimiento",
+          "descripcion": "Número de Visualizaciones hechas a través de la herramienta, del Proceso de Compra",
+          "nombreCampoApi": "visualizaciones_del",
+          "tipo": "Número"
+        },
+        {
+          "nombreColumna": "Proveedores que Manifestaron Interés",
+          "descripcion": "Proveedores que Manifestaron Interés en el proceso a través de la plataforma",
+          "nombreCampoApi": "proveedores_que_manifestaron",
+          "tipo": "Número"
+        },
+        {
+          "nombreColumna": "Respuestas al Procedimiento",
+          "descripcion": "Respuestas hechas al procedimiento, tanto de proveedores como de la misma entidad",
+          "nombreCampoApi": "respuestas_al_procedimiento",
+          "tipo": "Número"
+        },
+        {
+          "nombreColumna": "Respuestas Externas",
+          "descripcion": "Número de Respuestas hechas por entes externos",
+          "nombreCampoApi": "respuestas_externas",
+          "tipo": "Número"
+        },
+        {
+          "nombreColumna": "Conteo de Respuestas a Ofertas",
+          "descripcion": "Número de Respuestas hechas de forma directa en las ofertas",
+          "nombreCampoApi": "conteo_de_respuestas_a_ofertas",
+          "tipo": "Número"
+        },
+        {
+          "nombreColumna": "Proveedores Únicos con Respuestas",
+          "descripcion": "Proveedores Únicos que han redactado respuestas en el proceso",
+          "nombreCampoApi": "proveedores_unicos_con",
+          "tipo": "Número"
+        },
+        {
+          "nombreColumna": "Numero de Lotes",
+          "descripcion": "Número de lotes de artículos solicitados dentro del proceso",
+          "nombreCampoApi": "numero_de_lotes",
+          "tipo": "Número"
+        },
+        {
+          "nombreColumna": "Estado del Procedimiento",
+          "descripcion": "Estado actual de desarrollo del procedimiento de compra pública",
+          "nombreCampoApi": "estado_del_procedimiento",
+          "tipo": "Texto"
+        },
+        {
+          "nombreColumna": "ID, Estado del Procedimiento",
+          "descripcion": "Identificador del Estado del procedimiento",
+          "nombreCampoApi": "id_estado_del_procedimiento",
+          "tipo": "Número"
+        },
+        {
+          "nombreColumna": "Adjudicado",
+          "descripcion": "Determina si el proceso fue adjudicado",
+          "nombreCampoApi": "adjudicado",
+          "tipo": "Texto"
+        },
+        {
+          "nombreColumna": "ID Adjudicación",
+          "descripcion": "Identificador de la adjudicación",
+          "nombreCampoApi": "id_adjudicacion",
+          "tipo": "Texto"
+        },
+        {
+          "nombreColumna": "Código Proveedor",
+          "descripcion": "Código, en la plataforma, del proveedor adjudicado",
+          "nombreCampoApi": "codigoproveedor",
+          "tipo": "Texto"
+        },
+        {
+          "nombreColumna": "Departamento Proveedor",
+          "descripcion": "Departamento en el que está registrado el proveedor adjudicado",
+          "nombreCampoApi": "departamento_proveedor",
+          "tipo": "Texto"
+        },
+        {
+          "nombreColumna": "Ciudad Proveedor",
+          "descripcion": "Ciudad en la que está registrado el proveedor adjudicado",
+          "nombreCampoApi": "ciudad_proveedor",
+          "tipo": "Texto"
+        },
+        {
+          "nombreColumna": "Fecha Adjudicación",
+          "descripcion": "Fecha en la que se hizo la adjudicación del proceso para el proveedor seleccionado",
+          "nombreCampoApi": "fecha_adjudicacion",
+          "tipo": "Marca de tiempo variable"
+        },
+        {
+          "nombreColumna": "Valor Total Adjudicación",
+          "descripcion": "Valor total Adjudicado",
+          "nombreCampoApi": "valor_total_adjudicacion",
+          "tipo": "Número"
+        },
+        {
+          "nombreColumna": "Nombre del Adjudicador",
+          "descripcion": "Nombre del Usuario que ejecutó la acción de adjudicación",
+          "nombreCampoApi": "nombre_del_adjudicador",
+          "tipo": "Texto"
+        },
+        {
+          "nombreColumna": "Nombre del Proveedor Adjudicado",
+          "descripcion": "Nombre del Proveedor Adjudicado",
+          "nombreCampoApi": "nombre_del_proveedor",
+          "tipo": "Texto"
+        },
+        {
+          "nombreColumna": "NIT del Proveedor Adjudicado",
+          "descripcion": "NIT del Proveedor Adjudicado",
+          "nombreCampoApi": "nit_del_proveedor_adjudicado",
+          "tipo": "Texto"
+        },
+        {
+          "nombreColumna": "Código Principal de Categoría",
+          "descripcion": "Código UNSPSC de la categoría principal del producto o servicio adquirido en proceso de compra",
+          "nombreCampoApi": "codigo_principal_de_categoria",
+          "tipo": "Texto"
+        },
+        {
+          "nombreColumna": "Estado de Apertura del Proceso",
+          "descripcion": "Estado actual de Apertura de información del proceso",
+          "nombreCampoApi": "estado_de_apertura_del_proceso",
+          "tipo": "Texto"
+        },
+        {
+          "nombreColumna": "Tipo de Contrato",
+          "descripcion": "Tipo de Contrato definido para el proceso de compra",
+          "nombreCampoApi": "tipo_de_contrato",
+          "tipo": "Texto"
+        },
+        {
+          "nombreColumna": "Subtipo de Contrato",
+          "descripcion": "Subtipo de Contrato definido para el proceso de compra",
+          "nombreCampoApi": "subtipo_de_contrato",
+          "tipo": "Texto"
+        },
+        {
+          "nombreColumna": "Categorías Adicionales",
+          "descripcion": "Identificador de las categorías UNSPSC adicionales, incluidas en el producto o servicio adquirido en proceso de compra",
+          "nombreCampoApi": "categorias_adicionales",
+          "tipo": "Texto"
+        },
+        {
+          "nombreColumna": "URL Proceso",
+          "descripcion": "URL, en la plataforma, en la que se puede consultar el proceso de compra",
+          "nombreCampoApi": "urlproceso",
+          "tipo": "URL"
+        },
+        {
+          "nombreColumna": "Código Entidad",
+          "descripcion": "Código de la entidad en la plataforma SECOPII",
+          "nombreCampoApi": "codigo_entidad",
+          "tipo": "Número"
+        },
+        {
+          "nombreColumna": "Estado Resumen",
+          "descripcion": "Resumen del estado del proceso de compra pública",
+          "nombreCampoApi": "estado_resumen",
+          "tipo": "Texto"
+        }
+      ]
+    },
+    "adiciones": {
+      "apiSODA3": "https://www.datos.gov.co/api/v3/views/cb9c-h8sn/query.json",
+      "definicion": "El conjunto de datos SECOP II - Adiciones contiene información sobre las modificaciones realizadas a los contratos estatales registrados en el sistema SECOP II. Cada registro incluye:\n- Identificador único del evento de modificación\n- Identificador del contrato afectado\n- Tipo de modificación (por ejemplo, adición en valor, tiempo, objeto)\n- Descripción detallada de la justificación\n- Fecha de registro de la modificación\nEste conjunto permite realizar análisis sobre la evolución contractual, seguimiento de ajustes presupuestales y temporales, evaluación de prácticas de gestión contractual y fortalecimiento de la transparencia institucional.",
+      "columnas": [
+        {
+          "nombreColumna": "Identificador",
+          "descripcion": "Identificador único del evento de modificación",
+          "nombreCampoApi": "identificador",
+          "tipo": "Texto"
+        },
+        {
+          "nombreColumna": "ID Contrato",
+          "descripcion": "Identificador del contrato al que corresponde la modificación",
+          "nombreCampoApi": "Id contrato",
+          "tipo": "Texto"
+        },
+        {
+          "nombreColumna": "Tipo",
+          "descripcion": "Tipo de modificación, de acuerdo con el impacto que tiene sobre el contrato",
+          "nombreCampoApi": "tipo",
+          "tipo": "Texto"
+        },
+        {
+          "nombreColumna": "Descripción",
+          "descripcion": "Descripción detallada de la justificación de la adición o modificación",
+          "nombreCampoApi": "descripción",
+          "tipo": "Texto"
+        },
+        {
+          "nombreColumna": "Fecha Registro",
+          "descripcion": "Fecha en que se hace la modificación",
+          "nombreCampoApi": "Fecha registro",
+          "tipo": "Marca de tiempo"
+        }
+      ]
+    },
+    "proponentesporProceso": {
+      "apiSODA3": "https://www.datos.gov.co/api/v3/views/hgi6-6wh3/query.json",
+      "definicion": "El conjunto de datos Proponentes por Proceso SECOP II contiene información sobre los proveedores que presentan propuestas en los procesos de contratación pública gestionados a través de la plataforma SECOP II. Cada registro incluye:\n- Identificadores del procedimiento y fechas de publicación\n- Información de la entidad contratante (nombre, NIT, código)\n- Nombre del procedimiento\n- Datos del proveedor (nombre, NIT, código en SECOP II)\nEste conjunto permite realizar análisis sobre la participación de proveedores en procesos de compra pública, evaluar la competitividad, identificar patrones de contratación y apoyar la transparencia y rendición de cuentas.",
+      "columnas": [
+        {
+          "nombreColumna": "ID Procedimiento",
+          "descripcion": "Identificador del procedimiento",
+          "nombreCampoApi": "id_procedimiento",
+          "tipo": "Texto"
+        },
+        {
+          "nombreColumna": "Fecha Publicación",
+          "descripcion": "Fecha de publicacion del proceso",
+          "nombreCampoApi": "fecha_publicaci_n",
+          "tipo": "Marca de tiempo variable"
+        },
+        {
+          "nombreColumna": "Nombre Procedimiento",
+          "descripcion": "Nombre del proceso",
+          "nombreCampoApi": "nombre_procedimiento",
+          "tipo": "Texto"
+        },
+        {
+          "nombreColumna": "NIT Entidad",
+          "descripcion": "Nit de la entidad contratante",
+          "nombreCampoApi": "nit_entidad",
+          "tipo": "Número"
+        },
+        {
+          "nombreColumna": "Código Entidad",
+          "descripcion": "Codigo de la entidad contratante",
+          "nombreCampoApi": "codigo_entidad",
+          "tipo": "Número"
+        },
+        {
+          "nombreColumna": "Entidad Compradora",
+          "descripcion": "Entidad compradora",
+          "nombreCampoApi": "entidad_compradora",
+          "tipo": "Texto"
+        },
+        {
+          "nombreColumna": "Proveedor",
+          "descripcion": "Nombre del proveedor",
+          "nombreCampoApi": "proveedor",
+          "tipo": "Texto"
+        },
+        {
+          "nombreColumna": "NIT Proveedor",
+          "descripcion": "Nit del proveedor",
+          "nombreCampoApi": "nit_proveedor",
+          "tipo": "Texto"
+        },
+        {
+          "nombreColumna": "Código Proveedor",
+          "descripcion": "Identificador único de la plataforma SECOP II, del Proveedor",
+          "nombreCampoApi": "codigo_proveedor",
+          "tipo": "Número"
+        }
+      ]
+    }
+  }
+}

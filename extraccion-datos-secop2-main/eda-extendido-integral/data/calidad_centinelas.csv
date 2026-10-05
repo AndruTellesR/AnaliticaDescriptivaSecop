@@ -1,0 +1,28 @@
+columna,origen,tipo,n,pct,nulidad_declarada_pct,nulidad_efectiva_pct
+prov_codigo_categoria_principal,proveedor,centinela textual,46958,97.16,33.53,130.69
+n_invitados,proceso,cero estructural,33833,70.0,0.08,70.08
+valor_pagado,contrato,cero estructural,33296,68.89,0.0,68.89
+valor_facturado,contrato,cero estructural,29677,61.4,0.0,61.4
+prov_codigo,proveedor,centinela textual,16205,33.53,33.53,67.06
+prov_tipo_empresa,proveedor,centinela textual,16205,33.53,33.53,67.06
+prov_municipio,proveedor,centinela textual,16205,33.53,33.53,67.06
+prov_departamento,proveedor,centinela textual,16205,33.53,33.53,67.06
+prov_espyme,proveedor,centinela textual,16205,33.53,33.53,67.06
+n_oferentes,proceso,cero estructural,14330,29.65,0.08,29.73
+valor_adjudicado_proceso,proceso,cero estructural,12932,26.76,0.08,26.84
+n_visualizaciones,proceso,cero estructural,12921,26.73,0.08,26.81
+ciudad,contrato,centinela textual,8433,17.45,0.0,17.45
+plazo_discretizado,derivada propia,centinela textual,6212,12.85,12.85,25.7
+plazo_proceso_dias,proceso,cero estructural,4272,8.84,0.08,8.92
+tipodocproveedor,contrato,centinela textual,3469,7.18,0.0,7.18
+duraci_n_del_contrato,contrato,centinela textual,3056,6.32,0.0,6.32
+departamento,contrato,centinela textual,1599,3.31,0.0,3.31
+tipo_contratista,derivada propia,centinela textual,971,2.01,0.0,2.01
+rango_cuantia,derivada propia,centinela textual,696,1.44,1.44,2.88
+precio_base,proceso,cero estructural,585,1.21,0.08,1.29
+pr_fase,proceso,centinela textual,44,0.09,0.09,0.18
+pr_estado_resumen,proceso,centinela textual,44,0.09,0.08,0.17
+pr_modalidad_de_contratacion,proceso,centinela textual,38,0.08,0.08,0.16
+pr_adjudicado,proceso,centinela textual,38,0.08,0.08,0.16
+pr_unidad_de_duracion,proceso,centinela textual,38,0.08,0.08,0.16
+competencia_cat,proceso,centinela textual,38,0.08,0.08,0.16

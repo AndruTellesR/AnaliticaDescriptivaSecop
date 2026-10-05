@@ -1,0 +1,8 @@
+hipotesis,dimension,resultado,evidencia,matiz
+A-H1,Tiempo (deslizamiento del plazo),SE INVIERTE,rank-biserial -0.380 en el observable: la licitacion publica se retrasa MAS,El efecto se reduce al controlar por cuantia y la competencia real tiene efecto nulo
+A-H1,Costo (desviacion de costo),SE SOSTIENE,0.4079,Efecto mediano; la competencia real tambien discrimina en costo con efecto pequeno
+A-H1,Costo (sobrecosto sobre precio base),ver tabla h1_base,0.1341,"Indicador nuevo, no disponible en el EDA previo"
+A-H2,Modificaciones totales,SE SOSTIENE,"rank-biserial -0.372 en el observable, efecto mediano",Se reduce 74% al controlar por cuantia
+A-H2,Adiciones en valor,NO SE SOSTIENE,-0.0173,Significancia estadistica con tamano de efecto nulo y medianas identicas
+A-H2,Alcance (no entrega),SE INVIERTE,Los consorcios presentan MENOR tasa de no entrega que las personas juridicas,"Patron mixto: mas modificaciones, mejor alcance"
+A-H3,Territorial,NO SE PRUEBA,No existe NBI municipal en el dataset; el departamento no es NBI,La heterogeneidad en tiempo se desvanece al excluir el departamento dominante; en costo se refuerza

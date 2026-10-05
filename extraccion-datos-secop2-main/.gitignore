@@ -1,0 +1,171 @@
+# ============================================================
+# CREDENCIALES Y SECRETOS
+# ============================================================
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+.streamlit/secrets.toml
+**/secrets.toml
+**/credentials.json
+config/secrets/
+
+# ============================================================
+# PYTHON
+# ============================================================
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+*.egg
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.tox/
+build/
+dist/
+
+# ============================================================
+# JUPYTER
+# ============================================================
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+profile_default/
+ipython_config.py
+
+# ============================================================
+# IDEs Y EDITORES
+# ============================================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+
+# ============================================================
+# CLAUDE CODE
+# ============================================================
+.claude/
+**/.claude/
+
+# ============================================================
+# ARCHIVOS GRANDES QUE EXCEDEN LÍMITE DE GITHUB (100 MB)
+# ============================================================
+# Random Forest pickles — los más pesados (200-290 MB cada uno)
+**/rf_multi.pkl
+**/rf.pkl
+# Cualquier modelo > 100MB queda excluido por seguridad
+modelo-predictivo-preliminar/data/modelos/rf_multi.pkl
+modelo-predictivo-preliminar/data/modelos/rf.pkl
+modelo_predictivo_global/data/modelos/rf.pkl
+entregables/05-modelos/rf.pkl
+
+# ============================================================
+# DATOS RAW (TOO LARGE / RAW)
+# ============================================================
+# Datos crudos de la carpeta data/ raíz (no se versionan)
+data/*.parquet
+data/resultados.json
+data/resultados-final.json
+data/batch_jobs.json
+data/indicadores_pliegos_extraidos.json
+data/validacion_extraccion_pliegos.txt
+data/diccionario.toon
+data/pendientes_consorcios.parquet
+data/prompts_inspeccion/
+
+# Mantener los .parquet pequeños del modelo (los versionables)
+!modelo_predictivo_global/data/*.parquet
+!modelo-predictivo-preliminar/data/*.parquet
+!entregables/04-datasets/*.parquet
+
+# ============================================================
+# NODE.JS / VISUALIZER
+# ============================================================
+node_modules/
+**/node_modules/
+.next/
+**/.next/
+out/
+**/out/
+visualizer/public/data/*.parquet
+visualizer/public/data/*.json
+.pnpm-store/
+.npm/
+.yarn/
+.turbo/
+**/.turbo/
+
+# ============================================================
+# DOCKER
+# ============================================================
+**/data/extracciones/
+**/data/logs/
+**/data/cache/
+**/data/heartbeat.txt
+extractor-indicadores-docker/data/
+extractor-indicadores-docker/.venv/
+
+# ============================================================
+# LOGS Y TEMPORALES
+# ============================================================
+*.log
+*.tmp
+*.temp
+*.bak
+*.backup
+logs/
+tmp/
+temp/
+
+# ============================================================
+# SISTEMA OPERATIVO
+# ============================================================
+.DS_Store
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# ============================================================
+# ARCHIVOS DE LOCK Y SESIÓN
+# ============================================================
+~$*.pptx
+~$*.docx
+~$*.xlsx
+~$*.pdf
+
+# ============================================================
+# REPORTES INTERMEDIOS GENERADOS (REPRODUCIBLES)
+# ============================================================
+*.pdf
+!entregables/**/*.pdf
+!report/**/*.pdf
+
+# ============================================================
+# ARCHIVOS HUGE GENERADOS POR EJECUCIÓN
+# ============================================================
+modelo-predictivo-preliminar/data/modelos/*.pkl.gz
+modelo_predictivo_global/data/modelos/*.pkl.gz
+**/wandb/
+**/mlruns/
+
+# ============================================================
+# REPORTES STREAMLIT / DEPLOY
+# ============================================================
+.streamlit/cache/
+**/.streamlit/cache/
+entregables/12-presentacion/*
+entregables/01-informes/* 
+entregables/03-documento-final-pdf/* 

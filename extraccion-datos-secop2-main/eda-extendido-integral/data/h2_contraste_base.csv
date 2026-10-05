@@ -1,0 +1,11 @@
+lectura,variable,N_consorcio,N_persona_juridica,mediana_consorcio,mediana_persona_juridica,p,rank_biserial,tamano_efecto,sostiene_H2
+universo_completo,Modificaciones totales,10629,30197,3.0,1.0,< 1e-300,-0.2852,pequeno,SI
+universo_completo,Adiciones en valor,10629,30197,0.0,0.0,5.87e-06,-0.0146,nulo,NO
+universo_completo,Extensiones de plazo,10629,30197,0.0,0.0,0.4015,0.0001,nulo,NO
+universo_completo,Dias adicionados,10629,30197,0.0,0.0,1.15e-105,-0.1053,pequeno,SI
+universo_completo,Sobrecosto sobre el precio base (%),10508,29782,-0.093,0.0,1.49e-61,0.1064,pequeno,NO
+observable,Modificaciones totales,4562,11919,5.0,3.0,< 1e-300,-0.3721,mediano,SI
+observable,Adiciones en valor,4562,11919,0.0,0.0,0.0041,-0.0173,nulo,NO
+observable,Extensiones de plazo,4562,11919,0.0,0.0,1.0000,0.0,nulo,NO
+observable,Dias adicionados,4562,11919,0.0,0.0,1.93e-58,-0.1189,pequeno,SI
+observable,Sobrecosto sobre el precio base (%),4529,11843,-0.001,0.0,0.3631,0.0091,nulo,NO

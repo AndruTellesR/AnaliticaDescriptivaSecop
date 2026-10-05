@@ -1,0 +1,81 @@
+indicador_de_desempeno,variable,lectura,rho,p,N_efectivo,tamano_efecto,abs_rho
+deslizamiento_plazo_dias,plazo_contractual_final_dias,observable,0.6307,< 1e-300,16326,grande,0.6307
+deslizamiento_plazo_dias,plazo_contractual_final_dias,universo_completo,0.6118,< 1e-300,37155,grande,0.6118
+n_modificaciones_total,plazo_contractual_final_dias,observable,0.5408,< 1e-300,19194,grande,0.5408
+n_modificaciones_total,valor_del_contrato,observable,0.5055,< 1e-300,19194,grande,0.5055
+n_modificaciones_total,precio_base,observable,0.4795,< 1e-300,19177,mediano,0.4795
+n_modificaciones_total,plazo_contractual_final_dias,universo_completo,0.4678,< 1e-300,42252,mediano,0.4678
+deslizamiento_plazo_dias,valor_del_contrato,observable,0.3794,< 1e-300,16326,mediano,0.3794
+desviacion_costo_pct,valor_del_contrato,universo_completo,-0.3773,< 1e-300,15035,mediano,0.3773
+n_modificaciones_total,valor_del_contrato,universo_completo,0.3731,< 1e-300,48331,mediano,0.3731
+desviacion_costo_pct,precio_base,universo_completo,-0.3702,< 1e-300,15020,mediano,0.3702
+deslizamiento_plazo_dias,precio_base,observable,0.3686,< 1e-300,16309,mediano,0.3686
+sobrecosto_vs_precio_base_pct,n_contratos_del_portafolio,observable,-0.3624,< 1e-300,19065,mediano,0.3624
+sobrecosto_vs_precio_base_pct,n_contratos_del_portafolio,universo_completo,-0.3594,< 1e-300,47147,mediano,0.3594
+n_modificaciones_total,plazo_pactado_dias,observable,0.359,< 1e-300,16326,mediano,0.359
+desviacion_costo_pct,valor_del_contrato,observable,-0.3588,3.87e-262,8681,mediano,0.3588
+desviacion_costo_pct,precio_base,observable,-0.3507,2.90e-249,8667,mediano,0.3507
+sobrecosto_vs_precio_base_pct,n_oferentes,universo_completo,-0.3456,< 1e-300,47147,mediano,0.3456
+deslizamiento_plazo_dias,valor_del_contrato,universo_completo,0.3448,< 1e-300,37155,mediano,0.3448
+n_modificaciones_total,precio_base,universo_completo,0.3367,< 1e-300,48293,mediano,0.3367
+deslizamiento_plazo_dias,precio_base,universo_completo,0.3319,< 1e-300,37123,mediano,0.3319
+deslizamiento_plazo_dias,plazo_pactado_dias,universo_completo,0.3077,< 1e-300,37155,mediano,0.3077
+deslizamiento_plazo_dias,plazo_pactado_dias,observable,0.3003,< 1e-300,16326,mediano,0.3003
+n_modificaciones_total,n_visualizaciones,universo_completo,0.296,< 1e-300,48293,pequeno,0.296
+desviacion_costo_pct,plazo_contractual_final_dias,universo_completo,-0.291,3.64e-291,15033,pequeno,0.291
+n_modificaciones_total,plazo_pactado_dias,universo_completo,0.2825,< 1e-300,42119,pequeno,0.2825
+n_modificaciones_total,anio_firma,universo_completo,-0.2754,< 1e-300,43181,pequeno,0.2754
+desviacion_costo_pct,plazo_contractual_final_dias,observable,-0.2745,7.29e-150,8681,pequeno,0.2745
+sobrecosto_vs_precio_base_pct,n_oferentes,observable,-0.2629,8.64e-299,19065,pequeno,0.2629
+desviacion_costo_pct,plazo_pactado_dias,universo_completo,-0.2626,1.35e-221,14133,pequeno,0.2626
+n_modificaciones_total,n_visualizaciones,observable,0.2576,3.11e-288,19177,pequeno,0.2576
+desviacion_costo_pct,n_visualizaciones,observable,-0.2533,5.55e-127,8667,pequeno,0.2533
+desviacion_costo_pct,plazo_pactado_dias,observable,-0.2404,1.23e-105,8009,pequeno,0.2404
+desviacion_costo_pct,n_visualizaciones,universo_completo,-0.2371,6.14e-191,15020,pequeno,0.2371
+n_modificaciones_total,n_oferentes,universo_completo,0.2074,< 1e-300,48293,pequeno,0.2074
+deslizamiento_plazo_dias,anio_firma,universo_completo,-0.2073,< 1e-300,37141,pequeno,0.2073
+desviacion_costo_pct,n_oferentes,observable,-0.2032,2.10e-81,8667,pequeno,0.2032
+sobrecosto_vs_precio_base_pct,n_visualizaciones,universo_completo,-0.203,< 1e-300,47147,pequeno,0.203
+n_modificaciones_total,n_oferentes,observable,0.1848,6.37e-147,19177,pequeno,0.1848
+desviacion_costo_pct,n_oferentes,universo_completo,-0.1845,3.89e-115,15020,pequeno,0.1845
+sobrecosto_vs_precio_base_pct,plazo_pactado_dias,observable,0.1828,1.67e-122,16305,pequeno,0.1828
+sobrecosto_vs_precio_base_pct,plazo_contractual_final_dias,universo_completo,0.1794,9.25e-299,41732,pequeno,0.1794
+sobrecosto_vs_precio_base_pct,plazo_contractual_final_dias,observable,0.17,1.24e-123,19065,pequeno,0.17
+sobrecosto_vs_precio_base_pct,valor_del_contrato,observable,0.1671,1.88e-119,19065,pequeno,0.1671
+sobrecosto_vs_precio_base_pct,plazo_pactado_dias,universo_completo,0.157,4.00e-227,41483,pequeno,0.157
+deslizamiento_plazo_dias,n_invitados,observable,-0.1362,2.17e-68,16309,pequeno,0.1362
+n_modificaciones_total,n_contratos_del_portafolio,observable,0.1298,7.60e-73,19194,pequeno,0.1298
+desviacion_costo_pct,antiguedad_proveedor_anios,observable,-0.1288,7.46e-23,5795,pequeno,0.1288
+sobrecosto_vs_precio_base_pct,valor_del_contrato,universo_completo,0.1146,1.82e-137,47147,pequeno,0.1146
+n_modificaciones_total,n_contratos_del_portafolio,universo_completo,-0.1124,9.83e-136,48331,pequeno,0.1124
+deslizamiento_plazo_dias,anio_firma,observable,-0.1096,7.97e-45,16326,pequeno,0.1096
+deslizamiento_plazo_dias,n_visualizaciones,universo_completo,0.1079,1.28e-96,37123,pequeno,0.1079
+desviacion_costo_pct,n_contratos_del_portafolio,universo_completo,-0.1079,3.64e-40,15035,pequeno,0.1079
+sobrecosto_vs_precio_base_pct,anio_firma,observable,0.1071,1.01e-49,19065,pequeno,0.1071
+desviacion_costo_pct,n_contratos_del_portafolio,observable,-0.1061,3.68e-23,8681,pequeno,0.1061
+desviacion_costo_pct,antiguedad_proveedor_anios,universo_completo,-0.1039,4.78e-26,10263,pequeno,0.1039
+n_modificaciones_total,antiguedad_proveedor_anios,observable,0.1028,9.01e-31,12527,pequeno,0.1028
+n_modificaciones_total,antiguedad_proveedor_anios,universo_completo,0.1023,3.51e-68,28947,pequeno,0.1023
+deslizamiento_plazo_dias,antiguedad_proveedor_anios,observable,0.0975,1.40e-23,10488,nulo,0.0975
+n_modificaciones_total,anio_firma,observable,-0.0949,1.20e-39,19194,nulo,0.0949
+sobrecosto_vs_precio_base_pct,n_visualizaciones,observable,-0.094,1.19e-38,19065,nulo,0.094
+n_modificaciones_total,n_invitados,universo_completo,0.0863,2.01e-80,48293,nulo,0.0863
+desviacion_costo_pct,anio_firma,universo_completo,-0.0759,1.15e-20,15035,nulo,0.0759
+sobrecosto_vs_precio_base_pct,n_invitados,observable,0.0743,8.76e-25,19065,nulo,0.0743
+deslizamiento_plazo_dias,antiguedad_proveedor_anios,universo_completo,0.0735,9.64e-31,24551,nulo,0.0735
+deslizamiento_plazo_dias,n_invitados,universo_completo,-0.0681,2.18e-39,37123,nulo,0.0681
+deslizamiento_plazo_dias,n_oferentes,universo_completo,0.0511,7.18e-23,37123,nulo,0.0511
+sobrecosto_vs_precio_base_pct,n_invitados,universo_completo,0.051,1.44e-28,47147,nulo,0.051
+sobrecosto_vs_precio_base_pct,anio_firma,universo_completo,0.0506,1.07e-25,42828,nulo,0.0506
+deslizamiento_plazo_dias,n_visualizaciones,observable,0.0503,1.29e-10,16309,nulo,0.0503
+sobrecosto_vs_precio_base_pct,antiguedad_proveedor_anios,universo_completo,-0.0485,1.99e-16,28714,nulo,0.0485
+n_modificaciones_total,n_invitados,observable,-0.044,1.07e-09,19177,nulo,0.044
+deslizamiento_plazo_dias,n_contratos_del_portafolio,universo_completo,0.0431,1.00e-16,37155,nulo,0.0431
+deslizamiento_plazo_dias,n_contratos_del_portafolio,observable,0.0375,1.68e-06,16326,nulo,0.0375
+desviacion_costo_pct,n_invitados,observable,-0.0359,8.35e-04,8667,nulo,0.0359
+sobrecosto_vs_precio_base_pct,precio_base,observable,0.0318,1.14e-05,19065,nulo,0.0318
+desviacion_costo_pct,n_invitados,universo_completo,-0.0281,5.82e-04,15020,nulo,0.0281
+desviacion_costo_pct,anio_firma,observable,-0.0128,0.2345,8681,nulo,0.0128
+sobrecosto_vs_precio_base_pct,antiguedad_proveedor_anios,observable,0.0032,0.7210,12432,nulo,0.0032
+sobrecosto_vs_precio_base_pct,precio_base,universo_completo,0.0016,0.7227,47147,nulo,0.0016
+deslizamiento_plazo_dias,n_oferentes,observable,-0.0004,0.9569,16309,nulo,0.0004

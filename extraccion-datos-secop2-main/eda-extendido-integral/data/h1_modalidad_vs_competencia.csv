@@ -1,0 +1,5 @@
+lectura,dimension,efecto_MODALIDAD (proxy),interpretacion_modalidad,efecto_COMPETENCIA_REAL,interpretacion_competencia,N_modalidad,N_competencia
+universo_completo,Tiempo,-0.3798,mediano,-0.1117,pequeno,37155,25598
+universo_completo,Costo,0.4277,mediano,0.1158,pequeno,15035,10410
+observable,Tiempo,-0.3862,mediano,-0.0907,nulo,16326,11789
+observable,Costo,0.4079,mediano,0.0809,nulo,8681,6165

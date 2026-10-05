@@ -1,0 +1,7 @@
+lectura,indicador,N_licitacion,N_otras,mediana_licitacion,mediana_otras,U,p,rank_biserial,tamano_efecto,sostiene_H1
+universo_completo,Deslizamiento del plazo (dias),6611,30544,26.0,0.0,139305216.5,< 1e-300,-0.3798,mediano,NO
+universo_completo,Desviacion de costo (%),2793,12242,-9.176,0.0,9783711.5,< 1e-300,0.4277,mediano,SI
+universo_completo,Sobrecosto sobre el precio base (%),8937,38210,-1.0,0.0,139098781.5,4.99e-170,0.1853,pequeno,SI
+observable,Deslizamiento del plazo (dias),3235,13091,49.0,1.0,29352637.5,5.60e-255,-0.3862,mediano,NO
+observable,Desviacion de costo (%),1692,6989,-2.436,0.0,3500709.0,6.68e-175,0.4079,mediano,SI
+observable,Sobrecosto sobre el precio base (%),4063,15002,-0.13,0.0,26388249.5,5.25e-40,0.1341,pequeno,SI

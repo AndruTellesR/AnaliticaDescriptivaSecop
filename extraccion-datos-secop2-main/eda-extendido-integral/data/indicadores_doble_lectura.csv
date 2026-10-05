@@ -1,0 +1,24 @@
+metrica,universo_completo (N=48.331),observable (N=19.194),diferencia,dimension,diferencia_pp
+N del conjunto,48331.0,19194.0,-29137.0,Tiempo,
+N efectivo (deslizamiento calculable),37155.0,16326.0,-20829.0,Tiempo,
+Cobertura del indicador (%),76.88,85.06,8.18,Tiempo,
+% con deslizamiento > 0 sobre el conjunto,41.57,51.17,9.6,Tiempo,
+% con deslizamiento > 0 sobre el N efectivo,54.07,60.16,6.09,Tiempo,
+% con deslizamiento > 30 dias sobre el N efectivo,24.66,32.33,7.67,Tiempo,
+Mediana del deslizamiento (dias),1.0,2.0,1.0,Tiempo,
+p75 del deslizamiento (dias),30.0,60.0,30.0,Tiempo,
+p90 del deslizamiento (dias),139.0,184.0,45.0,Tiempo,
+N del conjunto,48331.0,19194.0,,Costo,
+N efectivo (valor_pagado > 0),15035.0,8681.0,,Costo,
+Cobertura del indicador (%),31.11,45.23,,Costo,
+% con valor_pagado == 0,68.89,54.77,,Costo,
+% con sobrecosto sobre el conjunto,0.04,0.08,,Costo,
+% con sobrecosto sobre el N efectivo,0.13,0.18,,Costo,
+n de contratos con sobrecosto,20.0,16.0,,Costo,
+Mediana de la desviacion (%),-0.0,0.0,,Costo,
+p25 de la desviacion (%),-10.0,-2.88,,Costo,
+Entregado en su totalidad (%),72.98,57.11,,Alcance,-15.87
+Entregado parcialmente (%),16.5,20.37,,Alcance,3.87
+No entregado (%),10.53,22.52,,Alcance,11.99
+N del conjunto,48331.0,19194.0,,Alcance,-29137.0
+Cobertura del indicador (%),100.0,100.0,,Alcance,0.0

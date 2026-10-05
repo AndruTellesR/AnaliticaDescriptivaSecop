@@ -1,0 +1,7 @@
+paso,contratos,retencion_pct,perdida_paso
+0. Universo completo de contratos de obra integrados,48331,100.0,0
+1. Fecha de firma dentro de 2018-2024 (3.6.3),32175,66.57,-16156
+"2. Campos minimos no nulos: valor, fechas, estado (3.6.3)",31610,65.4,-565
+3. Excluidos valor_del_contrato <= 0 (3.6.4),31544,65.27,-66
+4. Excluidas fechas invertidas fin < inicio (3.6.4),31543,65.26,-1
+"5. Estado avanzado/finalizado excluyendo activos, criterio conservador (3.6.3/3.6.4)",19194,39.71,-12349

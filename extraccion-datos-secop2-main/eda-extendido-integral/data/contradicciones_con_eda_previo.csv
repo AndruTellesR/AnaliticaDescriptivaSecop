@@ -1,0 +1,7 @@
+tema,lectura_previa,lectura_de_este_EDA,interpretacion,evidencia
+N-01 se generaliza al universo completo,La mediana de (deslizamiento - dias adicionados) es 0 en cualquier universo,Es 0.0 en el subconjunto observable pero -9.0 en el universo completo,"La absorcion de la prorroga por fecha_de_fin se completa al cierre del contrato, no antes",nb 03
+Heterogeneidad territorial de A-H3 en tiempo,Kruskal-Wallis H = 670.67 sostiene heterogeneidad territorial en el deslizamiento,Al excluir el departamento dominante el tamano de efecto cae de 0.0577 a 0.0098 (categoria nula),El resultado territorial en tiempo esta dominado por un solo departamento; en costo si es robusto,nb 10
+Numero de contratos liquidados con estado activo,3.538 contratos,7.382 sobre el universo completo; 3.538 es el conteo despues de cuatro filtros previos,Ambas cifras son correctas en su contexto; la del universo es la que caracteriza la fuente,nb 02
+Sobrecosto practicamente inexistente,0.1% de los contratos presenta sobrecosto,23.6% supera el presupuesto oficial del proceso en mas del 1%; 34.7% supera el valor adjudicado,"La cifra previa es correcta para su definicion, pero esa definicion no puede detectar sobrecosto",nb 05
+Cobertura del registro de proveedores,54.4%,54.41% por proveedor unico y 66.47% por contrato,La cifra previa no declaraba la unidad; ambas son correctas,nb 01
+es_pyme frente a espyme del registro,No comparadas,Concordancia del 100% donde ambas existen,Son la misma variable con coberturas distintas; se adopta la de cobertura completa,nb 07

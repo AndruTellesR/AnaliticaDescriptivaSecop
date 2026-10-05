@@ -1,0 +1,21 @@
+lectura,rango_cuantia,N_licitacion,N_otras,mediana_licitacion,mediana_otras,p,rank_biserial,tamano_efecto,indicador
+universo_completo,<50M,2,8279,,,N insuficiente,,no evaluable,deslizamiento_plazo_dias
+universo_completo,50M-200M,8,10002,,,N insuficiente,,no evaluable,deslizamiento_plazo_dias
+universo_completo,200M-1.000M,1355,9033,3.0,1.0,1.15e-13,-0.1247,pequeno,deslizamiento_plazo_dias
+universo_completo,1.000M-10.000M,3872,2819,32.0,6.0,3.76e-18,-0.1241,pequeno,deslizamiento_plazo_dias
+universo_completo,>10.000M,1371,336,50.0,18.5,0.0155,-0.0851,nulo,deslizamiento_plazo_dias
+observable,<50M,0,3202,,,N insuficiente,,no evaluable,deslizamiento_plazo_dias
+observable,50M-200M,4,4203,,,N insuficiente,,no evaluable,deslizamiento_plazo_dias
+observable,200M-1.000M,690,4213,12.0,3.0,3.03e-06,-0.1106,pequeno,deslizamiento_plazo_dias
+observable,1.000M-10.000M,1927,1336,55.0,19.5,4.10e-12,-0.1425,pequeno,deslizamiento_plazo_dias
+observable,>10.000M,614,137,113.0,89.0,0.2649,-0.0609,nulo,deslizamiento_plazo_dias
+universo_completo,<50M,0,3711,,,N insuficiente,,no evaluable,desviacion_costo_pct
+universo_completo,50M-200M,7,3888,,,N insuficiente,,no evaluable,desviacion_costo_pct
+universo_completo,200M-1.000M,651,3502,-0.87,-0.0,1.37e-15,0.1899,pequeno,desviacion_costo_pct
+universo_completo,1.000M-10.000M,1695,1038,-6.58,-0.44,2.36e-07,0.1167,pequeno,desviacion_costo_pct
+universo_completo,>10.000M,439,102,-25.62,-38.39,0.3067,-0.0649,nulo,desviacion_costo_pct
+observable,<50M,0,1911,,,N insuficiente,,no evaluable,desviacion_costo_pct
+observable,50M-200M,4,2225,,,N insuficiente,,no evaluable,desviacion_costo_pct
+observable,200M-1.000M,404,2114,-0.09,0.0,5.92e-15,0.232,pequeno,desviacion_costo_pct
+observable,1.000M-10.000M,1043,677,-1.35,-0.01,4.06e-05,0.1153,pequeno,desviacion_costo_pct
+observable,>10.000M,241,62,-13.77,-17.92,0.8243,0.0183,nulo,desviacion_costo_pct

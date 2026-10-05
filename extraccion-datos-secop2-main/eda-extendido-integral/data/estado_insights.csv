@@ -1,0 +1,17 @@
+id,insight,estado_tras_este_EDA,que_se_hizo,evidencia
+N-K01,Disociacion tiempo/costo en H1,Profundizado,Contrastado con competencia real (oferentes) y con control por cuantia. El mecanismo de competencia no opera,"nb 04, 10"
+N-K02,Patron mixto en consorcios (H2),Profundizado,"Anadido perfil de contratista, control por cuantia y concentracion de mercado. Detectado sesgo de cobertura del registro para consorcios","nb 07, 10"
+N-K03,Contratos liquidados con estado activo,Ampliado,"7.382 sobre el universo completo frente a 3.538 sobre el filtrado. Caracterizados por entidad, anio, modalidad y territorio",nb 02
+N-K04,Pagos en cero,Cerrado,Contrastado contra el valor adjudicado del proceso: la adjudicacion consta y el pago no se reporta. Es brecha de reporte,nb 05
+N-K05,Sospecha sobre valor_del_contrato,RESUELTO,"El sobrecosto contra el presupuesto oficial del proceso es del orden del 24%, no del 0.1%. Confirmada la hipotesis de que valor_del_contrato es el valor vigente tras adiciones",nb 05
+N-K06,Tamanos de efecto de asociacion,Extendido,"Matriz ampliada a 11 variables categoricas y 13 continuas, en doble lectura, ordenada por tamano de efecto",nb 09
+N-K07,Heterogeneidad territorial,Matizado,La heterogeneidad en tiempo se desvanece al excluir el departamento dominante; en costo se refuerza,nb 10
+N-K08,Embudo de calidad,Recalculado,"Embudo de 6 pasos sobre el universo completo, con la marca observable reproduciendo exactamente 19.194",nb 01
+N-01,fecha_de_fin absorbe prorrogas,Matizado,La absorcion es exacta en los observables (mediana 0) pero solo parcial en el universo (mediana -9). Se completa al cierre del contrato,nb 03
+N-02,Filtros no neutrales por modalidad,Cuantificado,"Retencion por anio, cuantia, modalidad y territorio reportada en doble lectura","nb 05, 06, 10"
+N-03,Estructura tripartita del costo,Caracterizado,"Los tres grupos perfilados por cuantia, modalidad, contratista y alcance, en definicion estricta y con tolerancia",nb 03
+N-04,Retraso material frente a ruido de calendario,Establecido,Umbral de 30 dias declarado y justificado; distribucion completa en cinco tramos y en doble lectura,nb 03
+N-05,Denominadores de las cifras titulares,Aplicado desde el inicio,Todo porcentaje se reporta con su denominador y con el N efectivo de cada indicador,nb 03 y todos
+N-06,Concentracion del departamento dominante,Ampliado,"Peso del 29.7% en el universo frente al 38.3% en el observable, con analisis de sensibilidad de la prueba territorial",nb 10
+N-07,Rescate de es_grupo,Extendido,Ademas de es_grupo se examinaron las restantes variables descartadas por varianza cero; dos variables de competencia resultaron inservibles,nb 01
+N-08,Coherencia plazo pactado y plazo final,Validado con fuente independiente,"El parseo propio se contrasta contra duracion y unidad_de_duracion del proceso, no contra coherencia interna",nb 03

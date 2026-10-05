@@ -1,0 +1,11 @@
+lectura,rango_cuantia,N_consorcio,N_persona_juridica,mediana_consorcio,mediana_persona_juridica,p,rank_biserial,tamano_efecto
+universo_completo,<50M,206,8243,1.0,1.0,0.0174,-0.0925,nulo
+universo_completo,50M-200M,965,9698,2.0,1.0,3.40e-11,-0.1253,pequeno
+universo_completo,200M-1.000M,3128,7908,3.0,2.0,3.17e-16,-0.0985,nulo
+universo_completo,1.000M-10.000M,4528,3813,4.0,4.0,1.50e-07,-0.0663,nulo
+universo_completo,>10.000M,1770,400,5.0,5.0,0.2401,-0.0373,nulo
+observable,<50M,83,2756,2.0,2.0,0.0133,-0.1524,pequeno
+observable,50M-200M,405,3776,3.0,2.0,3.00e-06,-0.1378,pequeno
+observable,200M-1.000M,1390,3467,4.0,3.0,8.83e-10,-0.1113,pequeno
+observable,1.000M-10.000M,1968,1778,7.0,6.0,1.51e-04,-0.0714,nulo
+observable,>10.000M,716,142,8.0,8.0,0.7281,0.0184,nulo

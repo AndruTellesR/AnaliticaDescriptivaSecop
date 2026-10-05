@@ -1,0 +1,4 @@
+join,esperada_pct,real_pct,n_cubierto,denominador,unidad
+contrato -> proceso (id_del_portafolio),99.9,99.92,48293,48331,contrato
+contrato -> proveedor (codigo),54.4,54.41,12618,23192,proveedor unico
+contrato -> proveedor (codigo),,66.47,32126,48331,contrato

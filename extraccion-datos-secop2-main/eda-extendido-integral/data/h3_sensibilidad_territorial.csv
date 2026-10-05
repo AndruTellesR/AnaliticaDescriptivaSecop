@@ -1,0 +1,9 @@
+lectura,indicador,escenario,H,gl,p,epsilon2,tamano_efecto,N_efectivo,k_departamentos
+universo_completo,Deslizamiento del plazo,CON el departamento dominante,1346.75,7,1.28e-286,0.05591,debil-moderado,23972,8
+universo_completo,Deslizamiento del plazo,SIN el departamento dominante,101.42,7,5.50e-19,0.00613,nulo/insignificante,15409,8
+universo_completo,Desviacion de costo,CON el departamento dominante,156.13,7,2.09e-30,0.01588,debil,9401,8
+universo_completo,Desviacion de costo,SIN el departamento dominante,147.52,7,1.35e-28,0.02321,debil,6062,8
+observable,Deslizamiento del plazo,CON el departamento dominante,670.67,7,1.45e-140,0.05769,debil-moderado,11512,8
+observable,Deslizamiento del plazo,SIN el departamento dominante,70.74,7,1.05e-12,0.00976,nulo/insignificante,6541,8
+observable,Desviacion de costo,CON el departamento dominante,190.32,7,1.28e-37,0.03035,debil,6048,8
+observable,Desviacion de costo,SIN el departamento dominante,205.88,7,6.53e-41,0.05221,debil-moderado,3817,8

@@ -1,0 +1,78 @@
+columna,origen,nulidad_pct,valores_distintos,clasificacion
+fecha_primera_adicion,contrato,30.76,557,Uso restringido
+fecha_ultima_adicion,contrato,30.76,587,Uso restringido
+fecha_de_inicio_del_contrato,contrato,12.58,2471,Apta
+fecha_de_firma,contrato,10.66,2402,Apta
+fecha_de_fin_del_contrato,contrato,3.1,3468,Apta
+id_contrato,contrato,0.0,48331,Apta
+proceso_de_compra,contrato,0.0,43451,Apta
+codigo_proveedor,contrato,0.0,23192,Apta
+codigo_entidad,contrato,0.0,2534,Apta
+nombre_entidad,contrato,0.0,2528,Apta
+estado_contrato,contrato,0.0,11,Apta
+liquidaci_n,contrato,0.0,2,Apta
+modalidad_de_contratacion,contrato,0.0,9,Apta
+tipo_de_contrato,contrato,0.0,1,Apta
+departamento,contrato,0.0,34,Apta
+ciudad,contrato,0.0,617,Apta
+orden,contrato,0.0,3,Apta
+sector,contrato,0.0,25,Apta
+rama,contrato,0.0,4,Apta
+entidad_centralizada,contrato,0.0,2,Apta
+es_grupo,contrato,0.0,2,Apta
+es_pyme,contrato,0.0,2,Apta
+tipodocproveedor,contrato,0.0,7,Apta
+codigo_de_categoria_principal,contrato,0.0,1506,Apta
+origen_de_los_recursos,contrato,0.0,2,Apta
+duraci_n_del_contrato,contrato,0.0,986,Apta
+valor_del_contrato,contrato,0.0,39774,Apta
+valor_pagado,contrato,0.0,13144,Apta
+valor_facturado,contrato,0.0,16252,Apta
+dias_adicionados,contrato,0.0,427,Apta
+n_adicion_valor,contrato,0.0,8,Apta
+n_cesion,contrato,0.0,6,Apta
+n_conclusion,contrato,0.0,8,Apta
+n_extension,contrato,0.0,2,Apta
+n_modificaciones_total,contrato,0.0,76,Apta
+n_suspension,contrato,0.0,31,Apta
+n_tipos_distintos,contrato,0.0,8,Apta
+tiene_conclusion,contrato,0.0,2,Apta
+tiene_suspension,contrato,0.0,2,Apta
+tiene_cesion,contrato,0.0,2,Apta
+tiene_extension_dias,contrato,0.0,2,Apta
+tiene_adicion_valor,contrato,0.0,2,Apta
+tiene_modificacion,contrato,0.0,2,Apta
+desviacion_costo_pct,derivada propia,68.89,7194,No apta sin tratamiento
+deslizamiento_plazo_dias,derivada propia,23.12,1127,Uso restringido
+plazo_pactado_dias,derivada propia,12.85,919,Apta
+plazo_discretizado,derivada propia,12.85,6,Apta
+plazo_contractual_final_dias,derivada propia,12.58,1476,Apta
+anio_firma,derivada propia,10.66,11,Apta
+mes_firma,derivada propia,10.66,12,Apta
+rango_cuantia,derivada propia,1.44,5,Apta
+tipo_contratista,derivada propia,0.0,4,Apta
+indice_alcance,derivada propia,0.0,3,Apta
+observable,derivada propia,0.0,2,Apta
+pr_fase,proceso,0.09,6,Apta
+precio_base,proceso,0.08,32617,Apta
+valor_adjudicado_proceso,proceso,0.08,29535,Apta
+n_oferentes,proceso,0.08,168,Apta
+n_respuestas,proceso,0.08,167,Apta
+n_invitados,proceso,0.08,500,Apta
+n_visualizaciones,proceso,0.08,559,Apta
+competencia_cat,proceso,0.08,5,Apta
+plazo_proceso_dias,proceso,0.08,456,Apta
+pr_unidad_de_duracion,proceso,0.08,5,Apta
+pr_duracion,proceso,0.08,399,Apta
+pr_adjudicado,proceso,0.08,2,Apta
+pr_estado_resumen,proceso,0.08,8,Apta
+pr_numero_de_lotes,proceso,0.08,21,Apta
+pr_modalidad_de_contratacion,proceso,0.08,9,Apta
+antiguedad_proveedor_anios,proveedor,40.11,3295,Uso restringido
+prov_codigo,proveedor,33.53,12618,Uso restringido
+prov_tipo_empresa,proveedor,33.53,30,Uso restringido
+prov_espyme,proveedor,33.53,2,Uso restringido
+prov_fecha_creacion,proveedor,33.53,3010,Uso restringido
+prov_codigo_categoria_principal,proveedor,33.53,69,Uso restringido
+prov_departamento,proveedor,33.53,36,Uso restringido
+prov_municipio,proveedor,33.53,708,Uso restringido

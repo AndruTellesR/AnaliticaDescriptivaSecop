@@ -1,0 +1,17 @@
+variable_competencia,variable_desempeno,lectura,rho_spearman,p,N_efectivo,tamano_efecto
+n_oferentes,deslizamiento_plazo_dias,universo_completo,0.0511,7.18e-23,37123,nulo
+n_oferentes,deslizamiento_plazo_dias,observable,-0.0004,0.9569,16309,nulo
+n_oferentes,desviacion_costo_pct,universo_completo,-0.1845,3.89e-115,15020,pequeno
+n_oferentes,desviacion_costo_pct,observable,-0.2032,2.10e-81,8667,pequeno
+n_invitados,deslizamiento_plazo_dias,universo_completo,-0.0681,2.18e-39,37123,nulo
+n_invitados,deslizamiento_plazo_dias,observable,-0.1362,2.17e-68,16309,pequeno
+n_invitados,desviacion_costo_pct,universo_completo,-0.0281,5.82e-04,15020,nulo
+n_invitados,desviacion_costo_pct,observable,-0.0359,8.35e-04,8667,nulo
+n_visualizaciones,deslizamiento_plazo_dias,universo_completo,0.1079,1.28e-96,37123,pequeno
+n_visualizaciones,deslizamiento_plazo_dias,observable,0.0503,1.29e-10,16309,nulo
+n_visualizaciones,desviacion_costo_pct,universo_completo,-0.2371,6.14e-191,15020,pequeno
+n_visualizaciones,desviacion_costo_pct,observable,-0.2533,5.55e-127,8667,pequeno
+n_oferentes,n_modificaciones_total,universo_completo,0.2074,< 1e-300,48293,pequeno
+n_oferentes,n_modificaciones_total,observable,0.1848,6.37e-147,19177,pequeno
+n_oferentes,valor_del_contrato,universo_completo,0.2698,< 1e-300,48293,pequeno
+n_oferentes,valor_del_contrato,observable,0.2521,7.04e-276,19177,pequeno

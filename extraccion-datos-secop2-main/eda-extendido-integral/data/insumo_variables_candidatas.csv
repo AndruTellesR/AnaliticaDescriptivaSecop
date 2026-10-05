@@ -1,0 +1,17 @@
+variable,tipo,disponible_en,asociada_con,observacion
+valor_del_contrato,continua,En la firma,"Deslizamiento, alcance, modificaciones",Gradiente monotono de retraso por cuantia (notebook 05)
+precio_base,continua,Antes de la adjudicacion,Sobrecosto sobre el presupuesto oficial,Referencia inicial que resuelve N-K05 (notebook 05)
+plazo_pactado_dias,continua,En la firma,"Deslizamiento, extension",Gradiente monotono de extension por duracion (notebook 08)
+n_oferentes,continua,En la adjudicacion,Desviacion de costo,"Efecto pequeno en costo, nulo en tiempo (notebook 04)"
+n_invitados,continua,Antes de la adjudicacion,"Deslizamiento, costo",Ver tabla de pares ordenada
+n_visualizaciones,continua,Antes de la adjudicacion,"Deslizamiento, costo","Medida de exposicion del proceso, no de competencia efectiva"
+modalidad_de_contratacion,categorica,En la firma,"Alcance, retraso material",Mayor V de Cramer del bloque categorico
+tipo_contratista,categorica,En la firma,"Alcance, modificaciones",Eje de A-H2 (notebooks 07 y 10)
+es_pyme,categorica,En la firma,"Deslizamiento, alcance","Cobertura del 100%, sin usar hasta este EDA (notebook 07)"
+rango_cuantia,categorica,En la firma,"Retraso material, alcance",Variable de control obligatoria por confusion con la modalidad
+departamento,categorica,En la firma,"Deslizamiento, alcance",Dominado por un solo departamento (notebook 10)
+anio_firma,continua,En la firma,Todos los indicadores,Los indicadores no son estables en el tiempo (notebook 06)
+reincidencia del contratista,derivada,En la firma,"Retraso material, alcance",Derivable del propio historico sin fuentes externas (notebook 07)
+n_modificaciones_total,continua,Durante la ejecucion,Deslizamiento,NO anticipatoria: coincide en parte con el propio indicador de tiempo (notebook 08)
+dias_adicionados,continua,Durante la ejecucion,Deslizamiento,NO anticipatoria por la misma razon
+valor_pagado,continua,Al cierre,Desviacion de costo,NO anticipatoria: define el indicador de costo

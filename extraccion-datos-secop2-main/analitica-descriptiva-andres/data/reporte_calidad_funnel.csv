@@ -1,0 +1,7 @@
+Paso,Contratos restantes,Retencion_pct
+Total contratos de Obra (hechos_contratos),48331,100.0
+Fecha de firma en 2018-2024,32175,66.57
+"Campos minimos no nulos (valor, fechas, estado)",31610,65.4
+Excluidos valor_del_contrato <= 0,31544,65.27
+Excluidas fechas invertidas (fin < inicio),31543,65.26
+"Estado avanzado/finalizado, excluyendo activos por criterio conservador",19194,39.71

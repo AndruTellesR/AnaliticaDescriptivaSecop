@@ -1,0 +1,45 @@
+variable_categorica,objetivo,lectura,chi2,gl,p,V_cramer,tamano_efecto,N_efectivo,min_frecuencia_esperada
+rango_cuantia,retraso_material_mayor_30d,observable,2011.67,4,< 1e-300,0.351,moderado,16326,242.8
+modalidad_de_contratacion,retraso_material_mayor_30d,observable,2009.57,8,< 1e-300,0.3508,moderado,16326,18.1
+rango_cuantia,retraso_material_mayor_30d,universo_completo,4211.11,4,< 1e-300,0.337,moderado,37077,421.4
+modalidad_de_contratacion,retraso_material_mayor_30d,universo_completo,3313.87,8,< 1e-300,0.2986,debil-moderado,37155,26.9
+plazo_discretizado,retraso_material_mayor_30d,observable,1308.68,5,8.41e-281,0.2831,debil-moderado,16326,97.3
+modalidad_de_contratacion,indice_alcance,observable,2763.35,16,< 1e-300,0.2683,debil-moderado,19194,24.9
+plazo_discretizado,retraso_material_mayor_30d,universo_completo,2511.79,5,< 1e-300,0.26,debil-moderado,37155,164.5
+rango_cuantia,indice_alcance,observable,2301.81,8,< 1e-300,0.2449,debil-moderado,19194,176.4
+modalidad_de_contratacion,indice_alcance,universo_completo,4805.52,16,< 1e-300,0.223,debil-moderado,48331,31.3
+departamento,retraso_material_mayor_30d,observable,803.07,33,1.89e-147,0.2218,debil-moderado,16326,0.6
+es_pyme,retraso_material_mayor_30d,observable,682.23,1,2.18e-150,0.2044,debil-moderado,16326,2159.0
+tipo_contratista,retraso_material_mayor_30d,observable,675.2,3,5.00e-146,0.2034,debil-moderado,16326,34.3
+tipo_contratista,retraso_material_mayor_30d,universo_completo,1462.12,3,< 1e-300,0.1984,debil,37155,59.7
+rango_cuantia,indice_alcance,universo_completo,3548.54,8,< 1e-300,0.193,debil,47635,236.9
+departamento,retraso_material_mayor_30d,universo_completo,1305.56,33,2.67e-253,0.1875,debil,37155,0.7
+tipo_contratista,indice_alcance,observable,1300.56,6,8.18e-278,0.1841,debil,19194,23.8
+departamento,indice_alcance,observable,1119.21,66,3.20e-191,0.1707,debil,19194,0.4
+tipo_contratista,indice_alcance,universo_completo,2534.93,6,< 1e-300,0.1619,debil,48331,102.2
+departamento,indice_alcance,universo_completo,2274.94,66,< 1e-300,0.1534,debil,48331,0.3
+plazo_discretizado,indice_alcance,observable,736.67,10,8.39e-152,0.1502,debil,16326,57.9
+competencia_cat,retraso_material_mayor_30d,observable,291.51,4,7.35e-62,0.1337,debil,16309,733.9
+plazo_discretizado,indice_alcance,universo_completo,1481.32,10,< 1e-300,0.1326,debil,42119,64.0
+es_pyme,retraso_material_mayor_30d,universo_completo,627.94,1,1.40e-138,0.13,debil,37155,3955.3
+prov_tipo_empresa,retraso_material_mayor_30d,observable,144.27,25,9.53e-19,0.1173,debil,10488,0.2
+prov_tipo_empresa,indice_alcance,observable,337.87,50,2.35e-44,0.1161,debil,12527,0.3
+competencia_cat,retraso_material_mayor_30d,universo_completo,494.07,4,1.29e-105,0.1154,debil,37123,1322.3
+orden,indice_alcance,observable,413.41,4,3.51e-88,0.1038,debil,19194,65.0
+es_pyme,indice_alcance,observable,201.61,2,1.66e-44,0.1025,debil,19194,1552.3
+prov_tipo_empresa,retraso_material_mayor_30d,universo_completo,226.83,29,1.49e-32,0.0961,nulo/insignificante,24557,0.2
+competencia_cat,indice_alcance,universo_completo,854.54,8,3.60e-179,0.0941,nulo/insignificante,48293,739.4
+competencia_cat,indice_alcance,observable,338.81,8,2.21e-68,0.094,nulo/insignificante,19177,548.6
+orden,indice_alcance,universo_completo,833.28,4,4.74e-179,0.0928,nulo/insignificante,48331,68.2
+prov_tipo_empresa,indice_alcance,universo_completo,373.86,58,1.03e-47,0.0763,nulo/insignificante,32126,0.1
+orden,retraso_material_mayor_30d,observable,38.1,2,5.34e-09,0.0483,nulo/insignificante,16326,92.5
+es_pyme,indice_alcance,universo_completo,84.1,2,5.46e-19,0.0417,nulo/insignificante,48331,2195.8
+entidad_centralizada,retraso_material_mayor_30d,observable,28.05,1,1.18e-07,0.0415,nulo/insignificante,16326,788.3
+orden,retraso_material_mayor_30d,universo_completo,27.85,2,8.97e-07,0.0274,nulo/insignificante,37155,133.4
+origen_de_los_recursos,retraso_material_mayor_30d,observable,12.11,1,5.02e-04,0.0272,nulo/insignificante,16326,837.5
+origen_de_los_recursos,indice_alcance,universo_completo,28.81,2,5.54e-07,0.0244,nulo/insignificante,48331,732.9
+origen_de_los_recursos,indice_alcance,observable,9.01,2,0.0111,0.0217,nulo/insignificante,19194,528.4
+entidad_centralizada,retraso_material_mayor_30d,universo_completo,13.48,1,2.41e-04,0.0191,nulo/insignificante,37155,1491.1
+entidad_centralizada,indice_alcance,universo_completo,8.53,2,0.0140,0.0133,nulo/insignificante,48331,839.0
+entidad_centralizada,indice_alcance,observable,3.08,2,0.2140,0.0127,nulo/insignificante,19194,601.6
+origen_de_los_recursos,retraso_material_mayor_30d,universo_completo,5.7,1,0.0170,0.0124,nulo/insignificante,37155,1480.5

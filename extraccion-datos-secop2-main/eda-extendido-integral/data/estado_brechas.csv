@@ -1,0 +1,8 @@
+prioridad,brecha,estado,que_se_hizo,evidencia
+1,Variables de competencia,CERRADA con matiz,Incorporadas desde procesos. Dos de las nueve variables enunciadas tienen varianza cero y son inservibles. A-H1 contrastada con oferentes reales,"nb 01, 04"
+2,precio_base,CERRADA,Depurado con regla declarada y usado como referencia inicial. Resuelve N-K05,"nb 02, 05"
+3,Segmentacion por cuantia,CERRADA,Perfil completo por rango de cuantia en doble lectura y usada como variable de control por estratificacion,"nb 05, 10"
+4,Evolucion temporal,CERRADA,"Distribucion anual, retencion por anio, estacionalidad mensual, estabilidad de los indicadores y momento de las modificaciones",nb 06
+5,Co-ocurrencia de modificaciones,CERRADA,Matriz de co-ocurrencia y analisis de sensibilidad de la jerarquia del indice de alcance,nb 08
+6,Duracion discretizada,CERRADA,"Gradiente de extension, adicion y suspension por rango de plazo pactado, en doble lectura",nb 08
+7,es_pyme,CERRADA,"Incorporada, contrastada y validada contra el registro externo de proveedores",nb 07

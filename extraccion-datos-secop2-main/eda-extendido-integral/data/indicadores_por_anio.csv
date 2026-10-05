@@ -1,0 +1,15 @@
+anio_firma,n,n_ef_tiempo,mediana_deslizamiento,pct_retraso_mayor_30,n_ef_costo,mediana_costo,pct_no_entregado,mediana_oferentes,lectura
+2018,1282,0,,,248,-0.0,36.7,5.0,universo_completo
+2019,2292,0,,,485,0.0,29.0,6.0,universo_completo
+2020,2764,2185,3.0,36.4,611,0.0,19.9,5.0,universo_completo
+2021,5406,5309,4.0,37.8,2181,0.0,21.9,1.0,universo_completo
+2022,5962,5830,3.0,35.3,2573,-0.0,13.8,1.0,universo_completo
+2023,7966,7702,2.0,25.3,3359,0.0,7.8,1.0,universo_completo
+2024,6503,6356,0.0,20.9,2942,0.0,7.7,1.0,universo_completo
+2018,854,0,,,188,0.0,51.4,6.0,observable
+2019,1559,0,,,414,0.0,41.2,6.0,observable
+2020,1725,1353,5.0,38.3,468,0.0,27.9,5.0,observable
+2021,3274,3248,5.0,37.7,1587,0.0,33.1,1.0,observable
+2022,3680,3632,4.0,37.9,1850,-0.0,19.6,1.0,observable
+2023,4299,4294,2.0,29.4,2196,0.0,12.3,2.0,observable
+2024,3803,3799,1.0,23.7,1978,0.0,11.2,2.0,observable

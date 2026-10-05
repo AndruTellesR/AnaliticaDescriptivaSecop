@@ -1,0 +1,13 @@
+lectura,referencia,N_efectivo,% con exceso > 0,% con exceso > 1% (tolerancia),% con exceso > 10%,mediana %,p75 %,p90 %
+universo completo,vs precio_base (presupuesto oficial),47147,22.14,21.25,17.61,0.0,0.0,31.53
+universo completo,vs valor adjudicado del proceso,35319,35.65,34.89,29.45,0.0,17.84,48.74
+universo completo,vs valor_del_contrato (definicion previa),15035,0.13,0.05,0.03,-0.0,0.0,0.0
+observable,vs precio_base (presupuesto oficial),19065,32.24,31.11,26.0,0.0,11.96,41.47
+observable,vs valor adjudicado del proceso,15142,48.06,47.51,40.71,0.0,32.49,49.94
+observable,vs valor_del_contrato (definicion previa),8681,0.18,0.06,0.02,0.0,0.0,0.0
+"universo, 1 contrato por proceso",vs precio_base (presupuesto oficial),39941,24.56,23.6,19.57,0.0,0.0,34.65
+"universo, 1 contrato por proceso",vs valor adjudicado del proceso,28715,34.96,34.66,29.34,0.0,17.44,47.81
+"universo, 1 contrato por proceso",vs valor_del_contrato (definicion previa),13849,0.12,0.04,0.01,0.0,0.0,0.0
+"observable, 1 contrato por proceso",vs precio_base (presupuesto oficial),16774,34.68,33.48,28.01,0.0,15.06,42.63
+"observable, 1 contrato por proceso",vs valor adjudicado del proceso,12997,46.15,45.77,38.95,0.0,29.28,49.72
+"observable, 1 contrato por proceso",vs valor_del_contrato (definicion previa),7933,0.18,0.04,0.01,0.0,0.0,0.0
